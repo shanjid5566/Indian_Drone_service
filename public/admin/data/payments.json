@@ -1,0 +1,24 @@
+{
+  "title": "Payments Management",
+  "subtitle": "Configure and manage payment methods for customers and drone operators",
+  "overview": {
+    "revenue": {
+      "label": "Revenue",
+      "value": "$184,592",
+      "change": "+7% from last month",
+      "changeType": "positive"
+    },
+    "activeIntegrations": {
+      "label": "Active Integrations",
+      "value": "6",
+      "change": "Out of 12 total",
+      "changeType": "positive"
+    },
+    "paymentMethods": {
+      "label": "Payment Methods",
+      "value": "12",
+      "change": "Enabled methods",
+      "changeType": "positive"
+    }
+  }
+}

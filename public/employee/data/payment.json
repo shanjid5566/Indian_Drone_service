@@ -1,0 +1,159 @@
+{
+  "summary": {
+    "todaysCollections": "$2,847.50",
+    "pendingPayments": {
+      "amount": "$1,234.75",
+      "customers": 8
+    },
+    "refundProcessed": {
+      "amount": "$345.20",
+      "transactions": 3
+    }
+  },
+  "transactions": [
+    {
+      "serviceId": "TXN-001",
+      "customerName": "Darlene Robertson",
+      "serviceDate": "12/08/2025",
+      "payment": "$700",
+      "discount": "$125",
+      "outstanding": "$125",
+      "progress": "Completed"
+    },
+    {
+      "serviceId": "TXN-002",
+      "customerName": "Marvin McKinney",
+      "serviceDate": "12/08/2025",
+      "payment": "$800",
+      "discount": "$200",
+      "outstanding": "$210",
+      "progress": "Processed"
+    },
+    {
+      "serviceId": "TXN-003",
+      "customerName": "Theresa Webb",
+      "serviceDate": "12/08/2025",
+      "payment": "$850",
+      "discount": "$180",
+      "outstanding": "$170",
+      "progress": "Pending"
+    },
+    {
+      "serviceId": "TXN-004",
+      "customerName": "Leslie Alexander",
+      "serviceDate": "12/08/2025",
+      "payment": "$900",
+      "discount": "$300",
+      "outstanding": "$300",
+      "progress": "Pending"
+    },
+    {
+      "serviceId": "TXN-005",
+      "customerName": "Courtney Henry",
+      "serviceDate": "12/08/2025",
+      "payment": "$950",
+      "discount": "$250",
+      "outstanding": "$200",
+      "progress": "Completed"
+    },
+    {
+      "serviceId": "TXN-006",
+      "customerName": "Ronald Richards",
+      "serviceDate": "12/08/2025",
+      "payment": "$720",
+      "discount": "$120",
+      "outstanding": "$100",
+      "progress": "Processed"
+    },
+    {
+      "serviceId": "TXN-007",
+      "customerName": "Annette Black",
+      "serviceDate": "12/08/2025",
+      "payment": "$1000",
+      "discount": "$400",
+      "outstanding": "$400",
+      "progress": "Completed"
+    },
+    {
+      "serviceId": "TXN-008",
+      "customerName": "Cody Fisher",
+      "serviceDate": "12/08/2025",
+      "payment": "$880",
+      "discount": "$150",
+      "outstanding": "$180",
+      "progress": "Pending"
+    },
+    {
+      "serviceId": "TXN-009",
+      "customerName": "Bessie Cooper",
+      "serviceDate": "12/08/2025",
+      "payment": "$940",
+      "discount": "$220",
+      "outstanding": "$250",
+      "progress": "Completed"
+    },
+    {
+      "serviceId": "TXN-010",
+      "customerName": "Esther Howard",
+      "serviceDate": "12/08/2025",
+      "payment": "$770",
+      "discount": "$100",
+      "outstanding": "$150",
+      "progress": "Processed"
+    },
+    {
+      "serviceId": "TXN-011",
+      "customerName": "Jacob Jones",
+      "serviceDate": "12/08/2025",
+      "payment": "$890",
+      "discount": "$210",
+      "outstanding": "$220",
+      "progress": "Pending"
+    },
+    {
+      "serviceId": "TXN-012",
+      "customerName": "Jenny Wilson",
+      "serviceDate": "12/08/2025",
+      "payment": "$960",
+      "discount": "$240",
+      "outstanding": "$260",
+      "progress": "Completed"
+    },
+    {
+      "serviceId": "TXN-013",
+      "customerName": "Cameron Williamson",
+      "serviceDate": "12/08/2025",
+      "payment": "$820",
+      "discount": "$130",
+      "outstanding": "$190",
+      "progress": "Processed"
+    },
+    {
+      "serviceId": "TXN-014",
+      "customerName": "Savannah Nguyen",
+      "serviceDate": "12/08/2025",
+      "payment": "$910",
+      "discount": "$210",
+      "outstanding": "$230",
+      "progress": "Pending"
+    },
+    {
+      "serviceId": "TXN-015",
+      "customerName": "Jerome Bell",
+      "serviceDate": "12/08/2025",
+      "payment": "$980",
+      "discount": "$300",
+      "outstanding": "$200",
+      "progress": "Completed"
+    },
+    {
+      "serviceId": "TXN-016",
+      "customerName": "Eleanor Pena",
+      "serviceDate": "12/08/2025",
+      "payment": "$870",
+      "discount": "$150",
+      "outstanding": "$220",
+      "progress": "Processed"
+    }
+  ]
+}

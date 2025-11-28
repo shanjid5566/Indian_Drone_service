@@ -1,0 +1,143 @@
+{
+  "overview": {
+    "stats": [
+      {
+        "id": "active-users",
+        "value": "2000",
+        "changeType": "positive",
+        "icon": "users"
+      },
+      {
+        "id": "total-jobs",
+        "value": "200",
+        "changeType": "positive",
+        "icon": "briefcase"
+      },
+      {
+        "id": "revenue",
+        "value": "$184,592",
+        "changeType": "positive",
+        "icon": "dollar"
+      },
+      {
+        "id": "complaints",
+        "value": "8",
+        "changeType": "negative",
+        "icon": "warning"
+      }
+    ],
+    "additionalStats": [
+      {
+        "id": "tickets",
+        "value": "10",
+        "changeType": "positive",
+        "icon": "ticket"
+      }
+    ]
+  },
+  "revenueChart": {
+    "data": {
+      "labels": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      "datasets": [
+        {
+          "label": "Revenue",
+          "data": [450, 500, 420, 600, 550, 480, 620],
+          "borderColor": "#10B981",
+          "backgroundColor": "rgba(16, 185, 129, 0.1)",
+          "fill": true,
+          "tension": 0.4
+        }
+      ]
+    }
+  },
+  "recentActivity": {
+    "headers": [
+      "User",
+      "Role",
+      "Job title",
+      "Status",
+      "Last Active",
+      "Actions"
+    ],
+    "data": [
+      {
+        "id": 1,
+        "user": "Jacob Jones",
+        "role": "Customer",
+        "jobTitle": "Drone Service Not Arriving on Scheduled Time",
+        "status": "Completed",
+        "statusType": "success",
+        "lastActive": "2 minutes ago"
+      },
+      {
+        "id": 2,
+        "user": "Floyd Miles",
+        "role": "Operator",
+        "jobTitle": "Inaccurate Information in Soil Analysis Results",
+        "status": "In Progress",
+        "statusType": "warning",
+        "lastActive": "22 minutes ago"
+      },
+      {
+        "id": 3,
+        "user": "Dianne Russell",
+        "role": "Customer",
+        "jobTitle": "Questioning the Accuracy of Crop Monitoring Reports",
+        "status": "In Progress",
+        "statusType": "warning",
+        "lastActive": "1 hour ago"
+      },
+      {
+        "id": 4,
+        "user": "Theresa Webb",
+        "role": "Operator",
+        "jobTitle": "Drone Service Not Arriving on Scheduled Time",
+        "status": "Rejected",
+        "statusType": "error",
+        "lastActive": "28 minutes ago"
+      },
+      {
+        "id": 5,
+        "user": "Jacob Jones",
+        "role": "Customer",
+        "jobTitle": "Drone Service Not Arriving on Scheduled Time",
+        "status": "Completed",
+        "statusType": "success",
+        "lastActive": "2 minutes ago"
+      },
+      {
+        "id": 6,
+        "user": "Floyd Miles",
+        "role": "Operator",
+        "jobTitle": "Inaccurate Information in Soil Analysis Results",
+        "status": "In Progress",
+        "statusType": "warning",
+        "lastActive": "22 minutes ago"
+      },
+      {
+        "id": 7,
+        "user": "Dianne Russell",
+        "role": "Customer",
+        "jobTitle": "Questioning the Accuracy of Crop Monitoring Reports",
+        "status": "In Progress",
+        "statusType": "warning",
+        "lastActive": "1 hour ago"
+      },
+      {
+        "id": 8,
+        "user": "Theresa Webb",
+        "role": "Operator",
+        "jobTitle": "Drone Service Not Arriving on Scheduled Time",
+        "status": "Rejected",
+        "statusType": "error",
+        "lastActive": "28 minutes ago"
+      }
+    ],
+    "pagination": {
+      "current": 1,
+      "total": 106,
+      "hasNext": true,
+      "hasPrevious": false
+    }
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "complaints": [
+    {
+      "id": 1,
+      "customer": "Jacob Jones",
+      "complainTitle": "Ineffective Drone Spraying Quality",
+      "ticketId": "ID: 43178",
+      "rating": "1.2 out of 5",
+      "ratingValue": 1.2,
+      "subject": "Ineffective Drone Spraying Quality",
+      "description": "Hello there, I am experiencing an issue when logging into my hosting account using the email address example@gmail.com Upon logging in, I receive the following message: Functionality is restricted. Could you please investigate and resolve this issue as soon as possible? Thank you for your support Best regards,",
+      "images": [
+        "/assets/images/complaint-1.jpg",
+        "/assets/images/complaint-2.jpg",
+        "/assets/images/complaint-3.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "customer": "Floyd Miles",
+      "complainTitle": "Questioning the Accuracy of Crop Monitoring Reports",
+      "ticketId": "ID: 43179",
+      "rating": "2.5 out of 5",
+      "ratingValue": 2.5,
+      "subject": "Questioning the Accuracy of Crop Monitoring Reports",
+      "description": "I have concerns about the accuracy of the crop monitoring reports provided by your service. The data does not seem to match what I am observing in the field.",
+      "images": [
+        "/assets/images/complaint-1.jpg",
+        "/assets/images/complaint-2.jpg",
+        "/assets/images/complaint-3.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "customer": "Dianne Russell",
+      "complainTitle": "Delayed Response Time for Technical Support",
+      "ticketId": "ID: 43180",
+      "rating": "3.0 out of 5",
+      "ratingValue": 3.0,
+      "subject": "Delayed Response Time for Technical Support",
+      "description": "I have been waiting for over 48 hours for a response from technical support regarding my equipment malfunction. This delay is affecting my operations.",
+      "images": [
+        "/assets/images/complaint-1.jpg",
+        "/assets/images/complaint-2.jpg",
+        "/assets/images/complaint-3.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "customer": "Theresa Webb",
+      "complainTitle": "Billing Discrepancy in Monthly Invoice",
+      "ticketId": "ID: 43181",
+      "rating": "2.8 out of 5",
+      "ratingValue": 2.8,
+      "subject": "Billing Discrepancy in Monthly Invoice",
+      "description": "There appears to be a discrepancy in my monthly invoice. I was charged for services that were not provided last month.",
+      "images": [
+        "/assets/images/complaint-1.jpg",
+        "/assets/images/complaint-2.jpg",
+        "/assets/images/complaint-3.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "customer": "Courtney Henry",
+      "complainTitle": "Equipment Malfunction During Peak Season",
+      "ticketId": "ID: 43182",
+      "rating": "1.5 out of 5",
+      "ratingValue": 1.5,
+      "subject": "Equipment Malfunction During Peak Season",
+      "description": "The drone equipment malfunctioned during the peak spraying season, causing significant delays and losses. I need immediate assistance.",
+      "images": [
+        "/assets/images/complaint-1.jpg",
+        "/assets/images/complaint-2.jpg",
+        "/assets/images/complaint-3.jpg"
+      ]
+    },
+    {
+      "id": 6,
+      "customer": "Bessie Cooper",
+      "complainTitle": "Inconsistent Service Quality",
+      "ticketId": "ID: 43183",
+      "rating": "3.2 out of 5",
+      "ratingValue": 3.2,
+      "subject": "Inconsistent Service Quality",
+      "description": "The service quality has been inconsistent over the past few months. Some visits are excellent, while others are below standard.",
+      "images": [
+        "/assets/images/complaint-1.jpg",
+        "/assets/images/complaint-2.jpg",
+        "/assets/images/complaint-3.jpg"
+      ]
+    },
+    {
+      "id": 7,
+      "customer": "Ronald Richards",
+      "complainTitle": "Missing Data in Weekly Reports",
+      "ticketId": "ID: 43184",
+      "rating": "2.9 out of 5",
+      "ratingValue": 2.9,
+      "subject": "Missing Data in Weekly Reports",
+      "description": "Several data points are missing from my weekly crop monitoring reports. This makes it difficult to track progress effectively.",
+      "images": [
+        "/assets/images/complaint-1.jpg",
+        "/assets/images/complaint-2.jpg",
+        "/assets/images/complaint-3.jpg"
+      ]
+    },
+    {
+      "id": 8,
+      "customer": "Jerome Bell",
+      "complainTitle": "Poor Communication from Field Agents",
+      "ticketId": "ID: 43185",
+      "rating": "2.3 out of 5",
+      "ratingValue": 2.3,
+      "subject": "Poor Communication from Field Agents",
+      "description": "The field agents assigned to my account rarely communicate updates or changes in schedule, leading to confusion and missed appointments.",
+      "images": [
+        "/assets/images/complaint-1.jpg",
+        "/assets/images/complaint-2.jpg",
+        "/assets/images/complaint-3.jpg"
+      ]
+    },
+    {
+      "id": 9,
+      "customer": "Kristin Watson",
+      "complainTitle": "Unauthorized Charges on Account",
+      "ticketId": "ID: 43186",
+      "rating": "1.8 out of 5",
+      "ratingValue": 1.8,
+      "subject": "Unauthorized Charges on Account",
+      "description": "I noticed unauthorized charges on my account for services I did not request or approve. Please investigate immediately.",
+      "images": [
+        "/assets/images/complaint-1.jpg",
+        "/assets/images/complaint-2.jpg",
+        "/assets/images/complaint-3.jpg"
+      ]
+    },
+    {
+      "id": 10,
+      "customer": "Albert Flores",
+      "complainTitle": "Damaged Crops Due to Incorrect Spraying",
+      "ticketId": "ID: 43187",
+      "rating": "1.0 out of 5",
+      "ratingValue": 1.0,
+      "subject": "Damaged Crops Due to Incorrect Spraying",
+      "description": "My crops were damaged due to incorrect spraying techniques used by your team. I need compensation for the losses.",
+      "images": [
+        "/assets/images/complaint-1.jpg",
+        "/assets/images/complaint-2.jpg",
+        "/assets/images/complaint-3.jpg"
+      ]
+    },
+    {
+      "id": 11,
+      "customer": "Marvin McKinney",
+      "complainTitle": "Late Arrival of Field Agents",
+      "ticketId": "ID: 43188",
+      "rating": "3.5 out of 5",
+      "ratingValue": 3.5,
+      "subject": "Late Arrival of Field Agents",
+      "description": "Field agents consistently arrive late for scheduled appointments, causing disruptions to my daily operations.",
+      "images": [
+        "/assets/images/complaint-1.jpg",
+        "/assets/images/complaint-2.jpg",
+        "/assets/images/complaint-3.jpg"
+      ]
+    },
+    {
+      "id": 12,
+      "customer": "Savannah Nguyen",
+      "complainTitle": "Incomplete Training for New Equipment",
+      "ticketId": "ID: 43189",
+      "rating": "2.7 out of 5",
+      "ratingValue": 2.7,
+      "subject": "Incomplete Training for New Equipment",
+      "description": "The training provided for the new equipment was incomplete and insufficient. I still have many questions about proper usage.",
+      "images": [
+        "/assets/images/complaint-1.jpg",
+        "/assets/images/complaint-2.jpg",
+        "/assets/images/complaint-3.jpg"
+      ]
+    },
+    {
+      "id": 13,
+      "customer": "Cody Fisher",
+      "complainTitle": "Software App Crashes Frequently",
+      "ticketId": "ID: 43190",
+      "rating": "2.1 out of 5",
+      "ratingValue": 2.1,
+      "subject": "Software App Crashes Frequently",
+      "description": "The mobile app crashes frequently, making it difficult to access important information and submit service requests.",
+      "images": [
+        "/assets/images/complaint-1.jpg",
+        "/assets/images/complaint-2.jpg",
+        "/assets/images/complaint-3.jpg"
+      ]
+    },
+    {
+      "id": 14,
+      "customer": "Brooklyn Simmons",
+      "complainTitle": "Unclear Pricing Structure",
+      "ticketId": "ID: 43191",
+      "rating": "3.3 out of 5",
+      "ratingValue": 3.3,
+      "subject": "Unclear Pricing Structure",
+      "description": "The pricing structure for additional services is unclear and confusing. I need better transparency in billing.",
+      "images": [
+        "/assets/images/complaint-1.jpg",
+        "/assets/images/complaint-2.jpg",
+        "/assets/images/complaint-3.jpg"
+      ]
+    },
+    {
+      "id": 15,
+      "customer": "Guy Hawkins",
+      "complainTitle": "No Follow-up After Service Completion",
+      "ticketId": "ID: 43192",
+      "rating": "2.6 out of 5",
+      "ratingValue": 2.6,
+      "subject": "No Follow-up After Service Completion",
+      "description": "There is no follow-up from the team after service completion to ensure satisfaction or address any concerns.",
+      "images": [
+        "/assets/images/complaint-1.jpg",
+        "/assets/images/complaint-2.jpg",
+        "/assets/images/complaint-3.jpg"
+      ]
+    },
+    {
+      "id": 16,
+      "customer": "Eleanor Pena",
+      "complainTitle": "Difficulty Scheduling Appointments",
+      "ticketId": "ID: 43193",
+      "rating": "3.1 out of 5",
+      "ratingValue": 3.1,
+      "subject": "Difficulty Scheduling Appointments",
+      "description": "The appointment scheduling system is difficult to use and often shows incorrect availability times.",
+      "images": [
+        "/assets/images/complaint-1.jpg",
+        "/assets/images/complaint-2.jpg",
+        "/assets/images/complaint-3.jpg"
+      ]
+    }
+  ]
+}

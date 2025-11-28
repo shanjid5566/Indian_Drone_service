@@ -1,0 +1,1534 @@
+{
+  "navigation": {
+    "dashboard": "डैशबोर्ड",
+    "login": "लॉगिन",
+    "logout": "लॉगआउट",
+    "getStarted": "शुरू करें",
+    "goToDashboard": "डैशबोर्ड पर जाएं"
+  },
+  "auth": {
+    "welcomeBack": "वापस स्वागत है",
+    "signInToAccount": "अपने खाते में साइन इन करें",
+    "email": "ईमेल",
+    "password": "पासवर्ड",
+    "signIn": "साइन इन",
+    "signingIn": "साइन इन हो रहा है...",
+    "demoAccounts": "डेमो खाते",
+    "passwordHint": "पासवर्ड: 12345",
+    "demoAccountsNote": "डेमो खाते पहली लॉगिन पर स्वचालित रूप से बनाए जाएंगे।"
+  },
+  "dashboard": {
+    "admin": {
+      "title": "एडमिन डैशबोर्ड",
+      "subtitle": "अपने प्लेटफॉर्म के प्रदर्शन और मुख्य मेट्रिक्स की निगरानी करें",
+      "welcome": "वापसी पर स्वागत है, प्रशासक",
+      "fullAccess": "पूर्ण पहुंच",
+      "overview": "अवलोकन",
+      "overviewDescription": "आपके एडमिन डैशबोर्ड में आपका स्वागत है। विभिन्न अनुभागों के बीच नेविगेट करने के लिए साइडबार का उपयोग करें।",
+      "stats": {
+        "active-users": {
+          "label": "सक्रिय उपयोगकर्ता",
+          "change": "पिछले महीने से +8.2%"
+        },
+        "total-jobs": {
+          "label": "कुल कार्य",
+          "change": "पिछले महीने से +12%"
+        },
+        "revenue": {
+          "label": "राजस्व",
+          "change": "पिछले महीने से +7%"
+        },
+        "complaints": {
+          "label": "शिकायतें",
+          "change": "पिछले महीने से -4%"
+        },
+        "tickets": {
+          "label": "टिकट",
+          "change": "पिछले महीने से +8.2%"
+        }
+      },
+      "revenueChart": {
+        "title": "पिछले 7 दिनों का राजस्व"
+      },
+      "userActivity": {
+        "title": "हाल की उपयोगकर्ता गतिविधि",
+        "headers": {
+          "user": "उपयोगकर्ता",
+          "role": "भूमिका",
+          "jobTitle": "कार्य शीर्षक",
+          "status": "स्थिति",
+          "lastActive": "अंतिम सक्रिय",
+          "actions": "क्रियाएं"
+        },
+        "pagination": {
+          "showing": "{{total}} उपयोगकर्ताओं में से {{current}} दिखा रहे हैं"
+        }
+      },
+      "settings": {
+        "title": "बैकएंड इंटीग्रेशन",
+        "subtitle": "पेमेंट गेटवे कनेक्शन और एपीआई कॉन्फ़िगरेशन प्रबंधित करें",
+        "addPaymentButton": "भुगतान विधियाँ जोड़ें",
+        "indianSystems": "भारतीय सिस्टम",
+        "international": "अंतर्राष्ट्रीय",
+        "walletServices": "वॉलेट सेवाएं",
+        "status": {
+          "testing": "परीक्षण",
+          "active": "सक्रिय"
+        },
+        "modal": {
+          "title": "नई भुगतान विधियाँ जोड़ें",
+          "apiKeyLabel": "एपीआई कुंजी",
+          "apiKeyPlaceholder": "***********",
+          "urlLabel": "यूआरएल",
+          "urlPlaceholder": "https://api.droneplatform.com/webhooks/payments",
+          "saveButton": "कॉन्फ़िगरेशन सहेजें"
+        },
+        "configModal": {
+          "title": "भुगतान प्रबंधन",
+          "apiKeyLabel": "एपीआई कुंजी",
+          "statusLabel": "स्थिति",
+          "webhookUrlLabel": "वेबहूक यूआरएल",
+          "saveButton": "कॉन्फ़िगरेशन सहेजें",
+          "cancelButton": "रद्द करें"
+        }
+      },
+
+      "userManagement": {
+        "title": "उपयोगकर्ता प्रबंधन",
+        "tabUser": "ऑपरेटर",
+        "tabCustomer": "ग्राहक",
+        "tabEmployee": "कर्मचारी",
+        "tabFieldAgent": "फील्ड एजेंट",
+        "subTabAll": "सभी ड्रोन ऑपरेटर",
+        "subTabPending": "लंबित",
+        "searchPlaceholder": "खोजें",
+        "tableHeaders": {
+          "dateTime": "तिथि/समय",
+          "name": "नाम",
+          "location": "स्थान",
+          "registrationId": "पंजीकरण आईडी",
+          "actions": "कार्रवाई"
+        },
+        "seeDetails": "विवरण देखें",
+        "showing": "{{total}} में से {{count}} उपयोगकर्ता दिखा रहा है",
+        "noUsersFound": "कोई उपयोगकर्ता नहीं मिला",
+        "modal": {
+          "aboutTitle": "इस उपयोगकर्ता के बारे में",
+          "fullName": "पूरा नाम:",
+          "phoneNumber": "फ़ोन नंबर:",
+          "email": "ईमेल:",
+          "latLong": "अक्षांश/देशांतर:",
+          "industry": "उद्योग:",
+          "approveButton": "अनुमोदित",
+          "cancelButton": "रद्द"
+        }
+      },
+
+      "customerManagement": {
+        "title": "ग्राहक प्रबंधन",
+        "tabOperator": "संचालक",
+        "tabCustomer": "ग्राहक",
+        "tabEmployee": "कर्मचारी",
+        "tabFieldAgent": "फील्ड एजेंट",
+        "searchPlaceholder": "खोजें",
+        "tableHeaders": {
+          "customer": "ग्राहक",
+          "status": "स्थिति",
+          "totalOrder": "कुल आदेश",
+          "lastActive": "अंतिम सक्रिय",
+          "actions": "क्रियाएं"
+        },
+        "status": {
+          "active": "सक्रिय",
+          "suspended": "निलंबित"
+        },
+        "actions": {
+          "viewDetails": "विवरण देखें",
+          "suspend": "उपयोगकर्ता निलंबित करें",
+          "activate": "उपयोगकर्ता सक्रिय करें"
+        },
+        "showing": "{{total}} में से {{count}} उपयोगकर्ता दिखा रहे हैं",
+        "noCustomersFound": "कोई ग्राहक नहीं मिला",
+        "fetchError": "ग्राहक डेटा प्राप्त करने में विफल",
+        "pagination": {
+          "previous": "पिछला",
+          "next": "अगला"
+        },
+        "modal": {
+          "title": "ग्राहक विवरण",
+          "email": "ईमेल",
+          "phone": "फ़ोन नंबर",
+          "address": "पता",
+          "totalOrders": "कुल आदेश",
+          "registrationDate": "पंजीकरण तिथि",
+          "lastActive": "अंतिम सक्रिय",
+          "customerId": "ग्राहक आईडी",
+          "close": "बंद करें",
+          "suspend": "ग्राहक निलंबित करें",
+          "activate": "ग्राहक सक्रिय करें"
+        }
+      },
+
+      "employeeManagement": {
+        "title": "कर्मचारी प्रबंधन",
+        "addEmployees": "कर्मचारी जोड़ें",
+        "searchPlaceholder": "खोजें",
+        "tableHeaders": {
+          "employees": "कर्मचारी",
+          "role": "भूमिका",
+          "roleCode": "भूमिका कोड",
+          "startDate": "समाप्ति तिथि",
+          "endDate": "समाप्ति तिथि",
+          "annualSalary": "वार्षिक वेतन",
+          "lastActive": "अंतिम सक्रिय",
+          "actions": "क्रियाएं"
+        },
+        "status": {
+          "active": "सक्रिय",
+          "inactive": "निष्क्रिय"
+        },
+        "actions": {
+          "viewDetails": "विवरण देखें",
+          "edit": "कर्मचारी संपादित करें",
+          "deactivate": "कर्मचारी निष्क्रिय करें",
+          "activate": "कर्मचारी सक्रिय करें"
+        },
+        "showing": "{{total}} में से {{count}} उपयोगकर्ता दिखा रहे हैं",
+        "noEmployeesFound": "कोई कर्मचारी नहीं मिला",
+        "fetchError": "कर्मचारी डेटा प्राप्त करने में विफल",
+        "pagination": {
+          "previous": "पिछला",
+          "next": "अगला"
+        },
+        "modal": {
+          "title": "कर्मचारी विवरण",
+          "email": "ईमेल",
+          "phone": "फ़ोन नंबर",
+          "address": "पता",
+          "role": "भूमिका",
+          "roleCode": "भूमिका कोड",
+          "department": "विभाग",
+          "startDate": "आरंभ तिथि",
+          "endDate": "समाप्ति तिथि",
+          "annualSalary": "वार्षिक वेतन",
+          "lastActive": "अंतिम सक्रिय",
+          "employeeId": "कर्मचारी आईडी",
+          "close": "बंद करें",
+          "deactivate": "कर्मचारी निष्क्रिय करें",
+          "activate": "कर्मचारी सक्रिय करें"
+        }
+      },
+
+      "fieldAgentManagement": {
+        "title": "फील्ड एजेंट प्रबंधन",
+        "searchPlaceholder": "खोजें",
+        "tableHeaders": {
+          "fieldAgent": "फील्ड एजेंट",
+          "totalAddCustomer": "कुल ग्राहक जोड़े",
+          "totalAddOperator": "कुल ऑपरेटर जोड़े",
+          "totalBookOrders": "कुल बुक ऑर्डर",
+          "status": "स्थिति",
+          "actions": "क्रियाएं"
+        },
+        "status": {
+          "active": "सक्रिय",
+          "suspended": "निलंबित"
+        },
+        "actions": {
+          "viewDetails": "विवरण देखें",
+          "suspend": "एजेंट निलंबित करें",
+          "activate": "एजेंट सक्रिय करें"
+        },
+        "showing": "{{total}} में से {{count}} उपयोगकर्ता दिखा रहे हैं",
+        "noFieldAgentsFound": "कोई फील्ड एजेंट नहीं मिला",
+        "fetchError": "फील्ड एजेंट डेटा प्राप्त करने में विफल",
+        "pagination": {
+          "previous": "पिछला",
+          "next": "अगला"
+        },
+        "modal": {
+          "title": "फील्ड एजेंट विवरण",
+          "email": "ईमेल",
+          "phone": "फ़ोन नंबर",
+          "address": "पता",
+          "totalAddCustomer": "कुल ग्राहक जोड़े",
+          "totalAddOperator": "कुल ऑपरेटर जोड़े",
+          "totalBookOrders": "कुल बुक ऑर्डर",
+          "joinDate": "शामिल होने की तिथि",
+          "area": "क्षेत्र",
+          "vehicleNumber": "वाहन नंबर",
+          "agentId": "एजेंट आईडी",
+          "close": "बंद करें",
+          "suspend": "एजेंट निलंबित करें",
+          "activate": "एजेंट सक्रिय करें"
+        }
+      },
+
+      "orderManagement": {
+        "title": "ऑर्डर प्रबंधन",
+        "subtitle": "सभी प्लेटफॉर्म कार्यों को ट्रैक और प्रबंधित करें",
+        "scheduled": "निर्धारित",
+        "inProgress": "प्रगति में",
+        "complete": "पूर्ण",
+        "jobs": "कार्य",
+        "tableHeaders": {
+          "droneOperator": "ड्रोन ऑपरेटर",
+          "status": "स्थिति",
+          "job": "कार्य",
+          "progress": "प्रगति",
+          "actions": "क्रियाएं"
+        },
+        "status": {
+          "inProgress": "प्रगति में",
+          "notStarted": "शुरू नहीं हुआ",
+          "suspended": "निलंबित"
+        },
+        "showing": "{{total}} में से {{count}} उपयोगकर्ता दिखा रहे हैं",
+        "pagination": {
+          "previous": "पिछला",
+          "next": "अगला"
+        }
+      },
+
+      "assignJob": {
+        "title": "नया कार्य सौंपें",
+        "clientName": "क्लाइंट का पूरा नाम",
+        "clientNamePlaceholder": "अपना पहला नाम दर्ज करें",
+        "phoneNumber": "फ़ोन नंबर",
+        "email": "ईमेल",
+        "orderId": "ऑर्डर आईडी",
+        "city": "शहर",
+        "postalCode": "पोस्टल कोड",
+        "street": "गली",
+        "assignButton": "सौंपें"
+      },
+
+      "orderDetails": {
+        "title": "ऑर्डर जानकारी",
+        "subtitle": "कार्य समीक्षा करें जो सौंपे गए हैं",
+        "TotalactiveJobs": "कुल सक्रिय कार्य",
+        "Totalcompletejob": "कुल पूर्ण कार्य",
+        "Averagerating": "औसत रेटिंग",
+        "Totaldrone": "कुल ड्रोन",
+        "outOf5": "5 में से",
+        "active": "सक्रिय",
+        "tableHeaders": {
+          "service": "सेवा",
+          "status": "स्थिति",
+          "rating": "रेटिंग",
+          "progress": "प्रगति",
+          "orderId": "ऑर्डर आईडी",
+          "location": "स्थान",
+          "actions": "क्रियाएं"
+        },
+        "status": {
+          "inProgress": "प्रगति में",
+          "notStarted": "शुरू नहीं हुआ",
+          "completed": "पूर्ण"
+        },
+        "noRating": "अभी कोई रेटिंग नहीं",
+        "outOfRating": "5 में से",
+        "showing": "{{total}} कार्यों में से {{count}} दिखा रहे हैं"
+      },
+
+      "paymentsManagement": {
+        "title": "भुगतान प्रबंधन",
+        "subtitle": "ग्राहकों और ड्रोन ऑपरेटरों के लिए भुगतान विधियों को कॉन्फ़िगर और प्रबंधित करें",
+        "tabs": {
+          "overview": "अवलोकन",
+          "customerPayments": "ग्राहक भुगतान",
+          "operatorPayments": "ऑपरेटर भुगतान"
+        },
+        "stats": {
+          "revenue": "राजस्व",
+          "activeIntegrations": "सक्रिय एकीकरण",
+          "paymentMethods": "भुगतान विधियाँ"
+        },
+        "customerPayments": {
+          "tableHeaders": {
+            "userName": "उपयोगकर्ता नाम",
+            "paymentMethod": "भुगतान विधि",
+            "status": "स्थिति",
+            "transactions": "लेन-देन",
+            "dateTime": "दिनांक और समय"
+          },
+          "status": {
+            "done": "पूर्ण",
+            "failed": "विफल"
+          },
+          "showing": "{{total}} ग्राहक लेन-देन में से {{count}} दिखा रहे हैं"
+        },
+        "operatorPayments": {
+          "tableHeaders": {
+            "serviceProvider": "सेवा प्रदाता",
+            "paymentMethod": "भुगतान विधि",
+            "status": "स्थिति",
+            "payouts": "भुगतान",
+            "dateTime": "दिनांक और समय"
+          },
+          "status": {
+            "done": "पूर्ण",
+            "failed": "विफल"
+          },
+          "showing": "{{total}} ग्राहक लेन-देन में से {{count}} दिखा रहे हैं"
+        }
+      }
+    },
+    "employee": {
+      "title": {
+        "dashPageTitle": "  डैशबोर्ड अवलोकन",
+        "customPageTitle": "ग्राहक प्रबंधन",
+        "orderPageTitle": "ऑर्डर प्रबंधन",
+        "paymentPageTitle": "भुगतान प्रबंधन",
+        "supportPageTitle": "सपोर्ट प्रबंधन",
+        "filtersAnalytics": "फ़िल्टर और विश्लेषण"
+      },
+      "subTitle": {
+        "dashpageSub": "अपने ग्राहक सेवा प्रदर्शन की निगरानी करें",
+        "custompageSub": "ग्राहक पंजीकरण और प्रोफ़ाइल सेटअप प्रबंधित करें",
+        "orderpageSub": "ग्राहक ऑर्डर बनाएं, पुनर्निर्धारित करें और प्रबंधित करें",
+        "paymentpageSub": "भुगतान, छूट और बिलिंग समस्याओं को संभालें",
+        "supportpageSub": "सपोर्ट टिकट और उन्नयन बनाएँ और प्रबंधित करें"
+      },
+      "table": {
+        "serviceName": "सेवा का नाम",
+        "contact": "संपर्क",
+        "location": "स्थान",
+        "served": "सर्वर",
+        "progress": "प्रगति",
+        "priority": "प्राथमिकता",
+        "action": "क्रिया",
+        "tableTitle": "हाल की व्यावसायिक गतिविधि",
+        "orderIdName": "ऑर्डर आईडी/नाम",
+        "assignTo": "सौंपें",
+        "serviceDate": "सेवा की तिथि",
+        "payment": "भुगतान",
+        "discount": "छूट",
+        "outstanding": "बकाया",
+        "recentCustomer": "हाल के ग्राहक",
+        "searchField": "यहाँ खोजें...",
+        "recentTransaction": "हाल का लेन-देन",
+        "tableServiceName": "सेवा / नाम",
+        "tableIssues": "समस्याएं",
+        "tableDate": "तारीख",
+        "tableProgress": "प्रगति",
+        "tablePriority": "प्राथमिकता",
+        "tableAction": "क्रिया",
+        "customerDetails": "ग्राहक विवरण",
+        "duration": "अवधि",
+        "revenue": "राजस्व",
+        "customerSupportActivity": "ग्राहक सहायता गतिविधि",
+        "issues": "समस्याएँ",
+        "date": "तारीख"
+      },
+      "button": {
+        "registerNewCustomer": "नया ग्राहक पंजीकृत करें",
+        "assistProfile": "प्रोफ़ाइल सेटअप में सहायता करें",
+        "reportAnalysis": "रिपोर्ट विश्लेषण",
+        "createServiceRequest": "नई सेवा अनुरोध बनाएँ",
+        "cancel": "ऑर्डर रद्द/संपादित करें",
+        "reshedule": "ऑर्डर पुनर्निर्धारित करें",
+        "collectPayment": "भुगतान एकत्र करें",
+        "discount": "लागू किए गए क्रेडिट/छूट",
+        "billing": "बिलिंग समस्याओं का समाधान",
+        "supportCreateTicket": "सपोर्ट टिकट बनाएं",
+        "supportEscalate": "तकनीकी टीम को बढ़ाएँ",
+        "seeDetails": "विवरण देखें",
+        "manageTicket": "टिकट प्रबंधित करें",
+        "escalate": "बढ़ाएँ",
+        "clearDates": "तारीख़ साफ़ करें",
+        "from": "से",
+        "to": "तक"
+      },
+      "dropdown": {
+        "low": "कम",
+        "medium": "मध्यम",
+        "high": "उच्च",
+        "critical": "गंभीर",
+        "aerialMediaServices": "एरियल मीडिया सेवाएँ",
+        "realEstateAndMarketing": "रियल एस्टेट और मार्केटिंग",
+        "agriculture": "कृषि",
+        "inspectionAndInfrastructure": "निरीक्षण और अवसंरचना",
+        "specializedOperations": "विशेष संचालन",
+        "supportAndTraining": "समर्थन और प्रशिक्षण",
+        "other": "अन्य",
+        "aerialPhotography": "एरियल फ़ोटोग्राफी और वीडियोग्राफी (VID)",
+        "cinematography": "सिनेमैटोग्राफी (CIN)",
+        "weddingCoverage": "शादी कवरेज (WED)",
+        "editing": "संपादन (EDT)",
+        "realEstateMarketing": "रियल एस्टेट मार्केटिंग सेवाएं (REM)",
+        "residentialPhotography": "आवासीय फ़ोटोग्राफी (RPH)",
+        "landSurveying": "भूमि सर्वेक्षण (LND)",
+        "roofInspection": "छत निरीक्षण (RFI)",
+        "droneMapping": "ड्रोन मैपिंग और सर्वेक्षण (MAP)",
+        "generalSurveying": "सामान्य सर्वेक्षण और मानचित्रण (SRV)",
+        "groundCollection": "ग्राउंड कलेक्शन (GRC)",
+        "dataAnalysis": "डेटा विश्लेषण (DAT)",
+        "agriculturalServices": "कृषि सेवाएँ (AGP)",
+        "agriculturalSpray": "कृषि छिड़काव (AGS)",
+        "agriculturalSpread": "कृषि फैलाव (AGP)",
+        "droneDeliveryServices": "ड्रोन डिलीवरी सेवाएँ (DLV)",
+        "boatingWaterSports": "बोटिंग और जल क्रीड़ा (BWS)",
+        "sports": "खेल (SPR)",
+        "droneMaintenance": "ड्रोन रखरखाव (DMN)",
+        "droneTraining": "ड्रोन प्रशिक्षण (TRN)",
+        "miscellaneous": "विविध / कस्टम",
+        "infrastructureInspectionServices": "इन्फ्रास्ट्रक्चर निरीक्षण सेवाएं (INF)",
+        "aerialInspections": "एरियल निरीक्षण (AIN)",
+        "constructionSiteMonitoring": "निर्माण स्थल निगरानी (CON)",
+        "generalInfrastructure": "सामान्य बुनियादी ढांचा (IFG)",
+        "aerialMedia": "एरियल मीडिया सेवाएँ",
+        "realEstate": "रीयल एस्टेट और मार्केटिंग",
+        "mappingAndSurveying": "मैपिंग और सर्वेक्षण"
+      },
+      "modal": {
+        "collectTitle": "भुगतान एकत्र करें",
+        "closeButton": "×",
+        "customerLabel": "ग्राहक",
+        "customerPlaceholder": "ग्राहक का नाम या ऑर्डर आईडी दर्ज करें",
+        "amountLabel": "राशि",
+        "amountPlaceholder": "$00.00",
+        "paymentMethodLabel": "भुगतान विधि",
+        "paymentMethodOption": "क्रेडिट कार्ड",
+        "notesLabel": "नोट्स",
+        "notesPlaceholder": "भुगतान नोट्स जोड़ें",
+        "processButton": "भुगतान प्रक्रिया करें",
+        "applyTitle": "क्रेडिट / डिस्काउंट लागू करें",
+        "applyCloseButton": "×",
+        "applyCustomerLabel": "ग्राहक",
+        "applyCustomerPlaceholder": "ग्राहक का नाम या ऑर्डर आईडी दर्ज करें",
+        "applyDiscountTypeLabel": "डिस्काउंट प्रकार",
+        "applyDiscountTypeOption1": "प्रतिशत डिस्काउंट",
+        "applyDiscountTypeOption2": "राशि",
+        "applyAmountLabel": "राशि",
+        "applyAmountPlaceholder": "$00.00",
+        "applyNotesLabel": "नोट्स",
+        "applyNotesPlaceholder": "भुगतान नोट्स जोड़ें",
+        "applyButton": "डिस्काउंट लागू करें",
+        "resolveTitle": "बिलिंग समस्याओं का समाधान करें",
+        "resolveCloseButton": "×",
+        "resolveCustomerLabel": "ग्राहक",
+        "resolveCustomerPlaceholder": "ग्राहक का नाम या ऑर्डर आईडी दर्ज करें",
+        "resolveIssueTypeLabel": "समस्याओं का प्रकार",
+        "resolveIssueTypeOption1": "गलत शुल्क",
+        "resolveIssueTypeOption2": "भुगतान विफल",
+        "resolveIssueTypeOption3": "रिफंड अनुरोध",
+        "resolveIssueTypeOption4": "डुप्लिकेट शुल्क",
+        "resolveIssueTypeOption5": "बिलिंग पता समस्या",
+        "resolveTransactionIdLabel": "लेन-देन आईडी",
+        "resolveTransactionIdPlaceholder": "लेन-देन आईडी दर्ज करें (यदि लागू हो)",
+        "resolveNotesLabel": "नोट्स",
+        "resolveNotesPlaceholder": "भुगतान नोट्स जोड़ें",
+        "resolveButton": "समस्या हल करें",
+        "ticketCustomerLabel": "ग्राहक *",
+        "ticketCustomerPlaceholder": "ग्राहक का नाम या फ़ोन नंबर दर्ज करें",
+        "ticketPriorityLabel": "प्राथमिकता",
+        "ticketPriorityOption1": "निम्न",
+        "ticketPriorityOption2": "मध्यम",
+        "ticketPriorityOption3": "उच्च",
+        "ticketCategoryLabel": "श्रेणी",
+        "ticketCategoryOption1": "तकनीकी समस्या",
+        "ticketCategoryOption2": "बिलिंग समस्या",
+        "ticketCategoryOption3": "अन्य",
+        "ticketIssueTitleLabel": "समस्या का शीर्षक *",
+        "ticketIssueTitlePlaceholder": "समस्या का संक्षिप्त विवरण",
+        "ticketServiceTypeLabel": "सेवा प्रकार",
+        "ticketServiceTypeOption1": "मैपिंग और सर्वेक्षण",
+        "ticketServiceTypeOption2": "स्थापन",
+        "ticketServiceTypeOption3": "रखरखाव",
+        "ticketIssueDescriptionLabel": "समस्या का विवरण *",
+        "ticketIssueDescriptionPlaceholder": "ग्राहक की समस्या का विस्तृत विवरण...",
+        "ticketCreateButton": "टिकट बनाएं",
+        "assistInProfileSetup": "प्रोफ़ाइल सेटअप में सहायता करें",
+        "customerEmailOrPhone": "ग्राहक ईमेल या फ़ोन",
+        "enterCustomerEmailOrPhone": "ग्राहक का ईमेल या फ़ोन दर्ज करें",
+        "setupType": "सेटअप प्रकार",
+        "customerInformation": "ग्राहक जानकारी",
+        "verificationDetails": "सत्यापन विवरण",
+        "serviceLocation": "सेवा स्थान",
+        "notes": "टिप्पणियाँ",
+        "addNotes": "सेटअप सहायता की आवश्यकता के बारे में कोई भी टिप्पणी जोड़ें...",
+        "startSetupAssistance": "सेटअप सहायता शुरू करें",
+        "firstName": "पहला नाम",
+        "middleName": "मध्य नाम",
+        "lastName": "अंतिम नाम",
+        "alsoKnownAs": "अन्य नाम से जाना जाता है",
+        "phone": "फोन नंबर",
+        "email": "ईमेल",
+        "geoLocation": "भू-स्थान",
+        "district": "ज़िला",
+        "mandal": "मंडल",
+        "village": "गाँव",
+        "saveButton": "व्यक्तिगत जानकारी सहेजें",
+        "title": "सत्यापन विवरण",
+        "kycDocuments": "केवाईसी दस्तावेज़ अपलोड करें",
+        "kycNumber": "केवाईसी संख्या",
+        "street": "सड़क",
+        "city": "शहर",
+        "state": "राज्य",
+        "postalCode": "डाक कोड",
+        "country": "देश",
+        "industry": "उद्योग",
+        "kycNumberPlaceholder": "केवाईसी संख्या दर्ज करें",
+        "streetPlaceholder": "सड़क का पता दर्ज करें",
+        "cityPlaceholder": "शहर दर्ज करें",
+        "statePlaceholder": "राज्य दर्ज करें",
+        "postalCodePlaceholder": "डाक कोड दर्ज करें",
+        "countryPlaceholder": "देश दर्ज करें",
+        "industryPlaceholder": "उद्योग चुनें",
+        "saveveriButton": "सत्यापन विवरण सहेजें",
+        "createTicket": "टिकट बनाएँ",
+        "customer": "ग्राहक",
+        "enterCustomerNameOrPhone": "ग्राहक का नाम या फोन नंबर दर्ज करें",
+        "priority": "प्राथमिकता",
+        "selectPriority": "प्राथमिकता चुनें",
+        "low": "कम",
+        "medium": "मध्यम",
+        "high": "उच्च",
+        "category": "श्रेणी",
+        "other": "अन्य",
+        "technicalIssue": "तकनीकी समस्या",
+        "billingIssue": "बिलिंग समस्या",
+        "issueTitle": "समस्या का शीर्षक",
+        "briefDescription": "समस्या का संक्षिप्त विवरण",
+        "serviceType": "सेवा का प्रकार",
+        "selectServiceType": "सेवा प्रकार चुनें",
+        "mappingSurveying": "मैपिंग और सर्वेक्षण",
+        "installation": "इंस्टॉलेशन",
+        "maintenance": "रखरखाव",
+        "issueDescription": "समस्या का विवरण",
+        "escalateTicket": "टिकट एस्केलेट करें",
+        "ticketId": "टिकट आईडी",
+        "enterTicketId": "टिकट आईडी दर्ज करें",
+        "escalationLevel": "एस्केलेशन स्तर",
+        "selectEscalationLevel": "एस्केलेशन स्तर चुनें",
+        "critical": "गंभीर",
+        "escalationReason": "एस्केलेशन का कारण",
+        "selectEscalationReason": "एस्केलेशन का कारण चुनें",
+        "customerUnhappy": "ग्राहक असंतुष्ट",
+        "delayedResponse": "देरी से प्रतिक्रिया",
+        "technicalEscalation": "तकनीकी एस्केलेशन",
+        "assignTo": "को असाइन करें",
+        "enterNameOrTeam": "नाम या टीम दर्ज करें",
+        "additionalComments": "अतिरिक्त टिप्पणियाँ",
+        "addAdditionalDetails": "कोई अतिरिक्त विवरण जोड़ें...",
+        "escalateTicketBtn": "टिकट एस्केलेट करें",
+        "billingProblem": "बिलिंग समस्या",
+        "serviceComplaint": "सेवा शिकायत",
+        "accountAccess": "खाता एक्सेस",
+        "technicalComplexity": "तकनीकी जटिलता",
+        "systemAppIssue": "सिस्टम/ऐप समस्या",
+        "securityConcern": "सुरक्षा चिंता",
+        "stepsAlreadyTaken": "पहले से उठाए गए कदम",
+        "detailedDescription": "विस्तृत विवरण",
+        "ticketID": "टिकट आईडी",
+        "enterTicketID": "टिकट आईडी दर्ज करें",
+        "updateStatus": "स्थिति अपडेट करें",
+        "inProgress": "प्रगति में",
+        "waitingForCustomer": "ग्राहक की प्रतीक्षा",
+        "resolved": "सुलझा हुआ",
+        "closed": "बंद",
+        "internalNotes": "आंतरिक नोट्स",
+        "enterInternalNotes": "आंतरिक नोट्स दर्ज करें...",
+        "customerResponse": "ग्राहक प्रतिक्रिया",
+        "manageTicket": "टिकट प्रबंधित करें",
+        "updateTicket": "टिकट अपडेट करें",
+        "incorrectCharge": "गलत शुल्क",
+        "percentageDiscount": "प्रतिशत छूट",
+        "referralBonus": "रेफरल बोनस",
+        "loyaltyBonus": "निष्ठा बोनस",
+        "campaignDiscount": "अभियान छूट",
+        "creditCard": "क्रेडिट कार्ड",
+        "debitCard": "डेबिट कार्ड",
+        "bank": "बैंक",
+        "rupay": "रुपे कार्ड"
+      },
+      "pages": {
+        "orderDetails": {
+          "serviceOrderID": "सेवा आदेश आईडी",
+          "customerOrderID": "ग्राहक आदेश आईडी",
+          "basicSpecificsInfo": "मूल विवरण जानकारी",
+          "customerID": "ग्राहक आईडी",
+          "subServiceID": "उप-सेवा आईडी",
+          "droneOperatorID": "ड्रोन ऑपरेटर आईडी",
+          "droneID": "ड्रोन आईडी",
+          "scheduling": "निर्धारण",
+          "serviceLocation": "सेवा स्थान",
+          "serviceStart": "सेवा शुरू",
+          "serviceEnd": "सेवा समाप्त",
+          "reschedulingInfo": "पुनर्निर्धारण जानकारी",
+          "rescheduledBy": "पुनर्निर्धारित द्वारा",
+          "rescheduledDate": "पुनर्निर्धारित दिनांक",
+          "rescheduleCount": "पुनर्निर्धारण संख्या",
+          "serviceMetrics": "सेवा मापदंड",
+          "serviceArea": "सेवा क्षेत्र (एकड़ में)",
+          "flightHours": "उड़ान घंटे",
+          "unitCost": "एकक लागत",
+          "additionalCosts": "अतिरिक्त लागत",
+          "discountAmount": "छूट राशि",
+          "serviceOrderCost": "सेवा आदेश लागत",
+          "paymentStatus": "सेवा आदेश भुगतान स्थिति",
+          "notesConfirmation": "नोट्स और पुष्टि",
+          "specialInstructions": "विशेष निर्देश",
+          "acknowledgmentStatus": "स्वीकृति स्थिति",
+          "totalOrder": "कुल आदेश",
+          "complete": "पूर्ण",
+          "kycDocument": "केवाईसी दस्तावेज़",
+          "images": "छवियाँ",
+          "videos": "वीडियो",
+          "customerFeedback": "ग्राहक प्रतिक्रिया",
+          "rateYourDroneOperator": "अपने ड्रोन ऑपरेटर को रेट करें",
+          "tips": "सुझाव",
+          "review": "समीक्षा",
+          "orderDetails": "ऑर्डर विवरण"
+        },
+        "dashboard": {
+          "dropDown": {
+            "last7days": "पिछले 7 दिन",
+            "last30days": "पिछले 30 दिन",
+            "last60days": "पिछले 60 दिन",
+            "last90days": "पिछले 90 दिन",
+            "last6months": "पिछले 6 महीने",
+            "last12months": "पिछले 12 महीने",
+            "overview": "सारांश",
+            "customerType": "ग्राहक प्रकार",
+            "all": "सभी",
+            "aerialMediaServices": "हवाई मीडिया सेवाएं",
+            "groundMediaServices": "जमीनी मीडिया सेवाएं",
+            "serviceCategory": "सेवा श्रेणी",
+            "allServiceCategories": "सभी सेवा श्रेणियाँ",
+            "aerialPhotographyVideographyMP": "हवाई फोटोग्राफी और वीडियोग्राफी (MP)",
+            "eventPhotography": "ईवेंट फोटोग्राफी"
+          },
+          "card": {
+            "1st": "कुल ग्राहक",
+            "2nd": "सक्रिय आदेश",
+            "3rd": "लंबित भुगतान",
+            "4th": "खुले टिकट",
+            "5th": "पूर्ण किए गए आदेश",
+            "6th": "रद्द किए गए आदेश",
+            "totalCustomers": "कुल ग्राहक",
+            "totalRevenue": "कुल राजस्व",
+            "avgDuration": "औसत अवधि",
+            "pendingPayments": "बकाया भुगतान",
+            "totalOrders": "कुल ऑर्डर",
+            "openTickets": "ओपन टिकट",
+            "inProgress": "प्रगति पर है",
+            "escalated": "एस्केलेटेड",
+            "resolvedToday": "आज हल किया गया"
+          }
+        },
+        "order": {
+          "modal": {
+            "createServiceRequest": "नई सेवा अनुरोध बनाएँ",
+            "customer": "ग्राहक",
+            "enterCustomerNameOrPhone": "ग्राहक का नाम या फ़ोन नंबर दर्ज करें",
+            "serviceType": "सेवा प्रकार*",
+            "mappingSurveying": "मैपिंग और सर्वेक्षण",
+            "preferredDate": "पसंदीदा तिथि",
+            "dateFormat": "मम/दि/वववव",
+            "preferredTime": "पसंदीदा समय",
+            "timeFormat": "घ:मि AM - 12:00 PM",
+            "specialInstruction": "विशेष निर्देश"
+          },
+
+          "rescheduleServiceOrder": {
+            "title": "सेवा आदेश पुनर्निर्धारण",
+            "orderId": "ऑर्डर आईडी",
+            "customerName": "ग्राहक का नाम या फ़ोन नंबर दर्ज करें",
+            "serviceType": "सेवा प्रकार*",
+            "mappingSurveying": "मैपिंग और सर्वेक्षण",
+            "preferredDate": "पसंदीदा तिथि",
+            "dateFormat": "माह/दिन/साल",
+            "preferredTime": "पसंदीदा समय",
+            "timeFormat": "घंटा:मिनट पूर्वाह्न - अपराह्न",
+            "specialInstruction": "कोई विशेष निर्देश या आवश्यकताएँ...",
+            "createRequest": "ऑर्डर पुनर्निर्धारित करें"
+          },
+          "cancelServiceOrder": {
+            "title": "सेवा आदेश रद्द करें",
+            "orderId": "ऑर्डर आईडी",
+            "customerName": "ग्राहक का नाम या फ़ोन नंबर दर्ज करें",
+            "action": "कार्रवाई*",
+            "mappingSurveying": "मैपिंग और सर्वेक्षण",
+            "reason": "कारण",
+            "specialInstruction": "कोई विशेष निर्देश या आवश्यकताएँ...",
+            "cancel": "रद्द करें"
+          }
+        },
+        "payment": {
+          "card": {
+            "refundProcessed": "रिफंड संसाधित",
+            "pendingPayments": "लंबित भुगतान",
+            "todaysCollections": "आज की वसूली"
+          }
+        }
+      }
+    },
+    "fieldAgent": {
+      "title": "फील्ड एजेंट डैशबोर्ड",
+      "welcome": "वापस स्वागत है, फील्ड एजेंट",
+      "fieldAgentSummery": {
+        "userAdded": "आपके द्वारा जोड़े गए कुल उपयोगकर्ता",
+        "ActiveCustomers": "सक्रिय ग्राहक",
+        "totalcommition": "कुल अर्जित कमीशन",
+        "totalPayments": "हमारा बकाया भुगतान"
+      },
+      "userAdd": {
+        "AddedByYou": "आपके द्वारा जोड़ा गया",
+        "AddCustomer": "ग्राहक जोड़ें",
+        "CustomerOnBoarded": "ग्राहक ऑनबोर्डेड"
+      },
+      "tableHeader": {
+        "Filter": "फ़िल्टर",
+        "Search": "यहाँ खोजें...",
+        "CustomerList": "ग्राहक सूची",
+        "Role": "उद्योग/सेवा",
+        "RegistrationCommission": "पंजीकरण कमीशन",
+        "FirstOrderCommission": "पहले ऑर्डर का कमीशन",
+        "EffectiveDate": "प्रभावी तिथि",
+        "RegistrationDate": "पंजीकरण तिथि",
+        "CustomerType": "ग्राहक प्रकार",
+        "NextFollowUpDate": "अगली फॉलो-अप तिथि",
+        "ServiceInterest": "सेवा रुचि",
+        "QuickActions": "त्वरित क्रियाएँ"
+      },
+      "pagination": {
+        "showing": "दिखा रहे हैं",
+        "users": "उपयोगकर्ता",
+        "previous": "पिछला",
+        "next": "अगला",
+        "of": "का"
+      },
+      "createServiceModal": {
+        "CreateService": "सेवा बनाएँ",
+        "ServiceTitle": "सेवा का शीर्षक",
+        "AquaDomoService": "Aqua Domo Service",
+        "ServicePrice": "सेवा की कीमत",
+        "PriceValue": "$130 / एकड़",
+        "Industry": "उद्योग",
+        "IndustryValue": "मैपिंग और सर्वेक्षण",
+        "Agriculture": "कृषि",
+        "Construction": "निर्माण",
+        "Environmental": "पर्यावरण",
+        "SubCategory": "उप श्रेणी",
+        "SubCategoryValue": "डोमो मैपिंग और सर्वेक्षण (MMD1)",
+        "ServiceDetails": "सेवा विवरण",
+        "DescribeYourService": "अपनी सेवा का वर्णन करें",
+        "ServiceLocation": "सेवा स्थान",
+        "ServiceLocationValue": "डोमो मैपिंग और सर्वेक्षण (MMD1)"
+      },
+      "FirstModal": {
+        "addCustomer": "ग्राहक जोड़ें",
+        "customerInfo": "ग्राहक जानकारी",
+        "firstName": "पहला नाम",
+        "middleName": "मध्यम नाम",
+        "lastName": "अंतिम नाम",
+        "alsoKnownAs": "के रूप में भी जाना जाता है",
+        "nickname": "उपनाम",
+        "phone": "फ़ोन",
+        "email": "ईमेल",
+        "geoLocation": "भौगोलिक स्थान",
+        "selectOnMap": "मानचित्र पर चुनें",
+        "district": "जिला",
+        "enterDistrict": "अपना जिले का नाम दर्ज करें",
+        "mandal": "मंडल",
+        "enterMandal": "अपना मंडल का नाम दर्ज करें",
+        "village": "गांव",
+        "enterVillage": "अपने गांव का नाम दर्ज करें",
+        "registeredBy": "द्वारा पंजीकृत",
+        "selectAgent": "एजेंट चुनें",
+        "FieldAgent": "फील्ड एजेंट",
+        "next": "अगला",
+        "confirmRegistration": "पंजीकरण की पुष्टि करें"
+      },
+      "SecondModal": {
+        "addressDetails": "पता विवरण",
+        "kycDocumentsUpload": "केवाईसी दस्तावेज़ अपलोड",
+        "street": "सड़क",
+        "streetAddress": "सड़क का पता",
+        "city": "शहर",
+        "enterCity": "शहर",
+        "state": "राज्य",
+        "enterState": "राज्य",
+        "postalCode": "डाक कोड",
+        "country": "देश",
+        "enterCountry": "भारत",
+        "industry": "उद्योग",
+        "selectIndustry": "उद्योग चुनें",
+        "agriculture": "कृषि",
+        "surveyMapping": "सर्वेक्षण और मानचित्रण"
+      },
+      "ThirdModal": {
+        "serviceLocations": "सेवा स्थान",
+        "firstLatLong": "पहला अक्षांश/देशांतर",
+        "firstLatLongValue": "अक्षांश, देशांतर",
+        "secondLatLong": "दूसरा अक्षांश/देशांतर",
+        "thirdLatLong": "तीसरा अक्षांश/देशांतर",
+        "numberOfAcres": "एकड़ की संख्या",
+        "landAreaInAcres": "भूमि क्षेत्र (एकड़ में)",
+        "locationLabel": "स्थान {{index}}",
+        "locationName": "स्थान का नाम",
+        "locationNamePlaceholder": "जैसे, उत्तर GeoCoordinates",
+        "latitude": "अक्षांश",
+        "latitudePlaceholder": "17.4529",
+        "longitude": "देशांतर",
+        "longitudePlaceholder": "78.3982",
+        "landSize": "भूमि का आकार",
+        "landSizePlaceholder": "25 एकड़",
+        "unit": "इकाई",
+        "accessInstructions": "पहुँच निर्देश",
+        "accessInstructionsPlaceholder": "उपयोग उत्तर गेट, साइट प्रबंधक से संपर्क करें.",
+        "addLocation": "स्थान जोड़ें",
+        "removeLocation": "स्थान हटाएँ"
+      }
+    },
+    "marketing": {
+      "title": "मार्केटिंग डैशबोर्ड",
+      "monitor": "अपने ग्राहक सेवा प्रदर्शन की निगरानी करें",
+      "daysOverview": "पिछले 30 दिनों का अवलोकन",
+      "Last30daysOverview": "पिछले 30 दिनों का अवलोकन",
+      "Last90daysOverview": "पिछले 90 दिनों का अवलोकन",
+      "Last7daysOverview": "पिछले 7 दिनों का अवलोकन",
+      "last_90_days": "पिछले 90 दिनों",
+      "last_30_days": "पिछले 30 दिन",
+      "last_7_days": "पिछले 7 दिन",
+      "clickRate": "क्लिक-थ्रू दर",
+      "ConversionRate": "रूपांतरण दर",
+      "CustomerAcquisitionCost": "ग्राहक अधिग्रहण लागत",
+      "RIO": "आरआईओ",
+      "LeadManagement": "लीड प्रबंधन",
+      "TrackAndNurtureYourMarketingLeads": "अपनी मार्केटिंग लीड्स को ट्रैक करें और पोषित करें",
+      "ExportLeads": "लीड्स निर्यात करें",
+      "Automation": "स्वचालन",
+      "AllLeads": "सभी लीड्स",
+      "Hot": "गरम लीड्स",
+      "Warm": "मध्यम लीड्स",
+      "Cool": "ठंडी लीड्स",
+      "Lead": "लीड",
+      "Contact": "संपर्क",
+      "Source": "स्रोत",
+      "Location": "स्थान",
+      "Score": "स्कोर",
+      "Status": "स्थिति",
+      "Action": "कार्य",
+      "Results": "परिणाम",
+      "Showing": "दिखा रहा है",
+      "Previous": "पिछला",
+      "Next": "अगला",
+      "Confirm": "पुष्टि करें",
+      "seasonalCampaings": "मौसमी अभियान",
+      "CreateCampaign": "अभियान बनाएँ",
+      "SeeDetails": "विवरण देखें",
+      "Loyaltyprograms": "निष्ठा कार्यक्रम",
+      "LaunchCampaign": "अभियान लॉन्च करें",
+      "Notifications": "सूचनाएँ",
+      "NoUnreadNotifications": "सभी कैच अप! कोई अनपढ़ सूचनाएँ नहीं हैं।",
+      "MarkAllRead": "सभी को पढ़ा करें",
+      "Heatmap": "हीटमैप",
+      "High": "उच्च",
+      "Medium": "मध्यम",
+      "Low": "कम",
+      "DemandByRegion": "क्षेत्र द्वारा मांग",
+      "CampaignOverview": {
+        "SeasonalCampaignOverview": "मौसमी अभियान अवलोकन",
+        "LoyaltyCampaignOverview": "निष्ठा अभियान अवलोकन",
+        "CampaignName": "अभियान का नाम",
+        "CampaignTypes": "अभियान प्रकार",
+        "LeadsGenerated": "उत्पन्न लीड्स",
+        "ROI": "आरओआई",
+        "Actions": "क्रियाएँ"
+      },
+      "CampaignDetails": {
+        "CampaignOverview": "अभियान अवलोकन",
+        "Back": "वापस",
+        "Export": "निर्यात करें",
+        "Delete": "हटाएँ",
+        "CampaignName": "अभियान का नाम",
+        "Objective": "उद्देश्य",
+        "Duration": "अवधि",
+        "CampaignType": "अभियान प्रकार",
+        "CampaignStory": "अभियान कहानी",
+        "ChannelPerformance": "चैनल प्रदर्शन",
+        "Impressions": "इम्प्रेशन",
+        "Clicks": "क्लिक्स",
+        "LeadGeneration": "लीड जनरेशन",
+        "ConversionsRate": "रूपांतरण दर",
+        "RIO": "आरआईओ"
+      },
+      "AutomationModal": {
+        "Enabled": "सक्रिय",
+        "ThreeOfFourRulesActive": "4 में से 3 नियम सक्रिय हैं",
+        "IfLeadIsHot": "यदि लीड गरम है",
+        "Disabled": "असक्रिय",
+        "AutomationSettings": "स्वचालन सेटिंग्स"
+      },
+      "CampaignModal": {
+        "step_1": {
+          "CreateNewCampaign": "नया अभियान बनाएँ",
+          "Step": "चरण",
+          "Progress25Percent": "25%",
+          "SetCampaignType": "अभियान प्रकार सेट करें",
+          "BrandAwareness": "ब्रांड जागरूकता",
+          "BrandAwarenessDescription": "ब्रांड की दृश्यता और पहचान फैलाएँ",
+          "CustomerAcquisition": "ग्राहक अधिग्रहण",
+          "CustomerAcquisitionDescription": "नए ग्राहकों और लीड्स को आकर्षित करें",
+          "Retargeting": "रीटार्गेटिंग",
+          "RetargetingDescription": "मौजूदा विज़िटर्स और ग्राहकों को पुनः संलग्न करें",
+          "ReferralProgram": "रेफ़रल प्रोग्राम",
+          "ReferralProgramDescription": "विकास के लिए मौजूदा ग्राहकों की संख्या बढ़ाएँ",
+          "DefineTargetSegment": "लक्षित सेगमेंट निर्धारित करें",
+          "Operator": "ऑपरेटर",
+          "Customers": "ग्राहक",
+          "SelectTargetSegment": "लक्षित सेगमेंट चुनें"
+        },
+        "step_2": {
+          "SetCampaignGoals": "अभियान लक्ष्य सेट करें",
+          "Signups": "साइनअप्स",
+          "Bookings": "बुकिंग्स",
+          "Downloads": "डाउनलोड्स",
+          "Engagement": "सक्रियता",
+          "CampaignBudget": "अभियान बजट",
+          "EnterBudgetAmount": "बजट राशि दर्ज करें"
+        },
+        "step_3": {
+          "CampaignTitle": "अभियान शीर्षक",
+          "EnterCampaignTitle": "अभियान शीर्षक दर्ज करें",
+          "Description": "विवरण",
+          "EnterCampaignDetails": "अभियान विवरण दर्ज करें",
+          "TargetedAudience": "लक्षित दर्शक",
+          "SelectTargetSegment": "लक्षित सेगमेंट चुनें",
+          "UploadCampaignImages": "अभियान चित्र अपलोड करें",
+          "Previous": "पिछला"
+        },
+        "step_4": {
+          "ChooseMarketingChannels": "मार्केटिंग चैनल चुनें",
+          "Email": "ईमेल",
+          "SMS": "एसएमएस",
+          "PushNotification": "पुश सूचनाएँ",
+          "SocialMedia": "सोशल मीडिया"
+        }
+      }
+    }
+  },
+  "sidebar": {
+    "prasadDashboard": "प्रसाद डैशबोर्ड",
+    "admin": {
+      "droneOperator": "ड्रोन ऑपरेटर",
+      "userManagement": "उपयोगकर्ता प्रबंधन",
+      "employeeManagement": "कर्मचारी प्रबंधन",
+      "fieldAgent": "फील्ड एजेंट",
+      "jobs": "नौकरियां",
+      "paymentsManagement": "भुगतान प्रबंधन",
+      "reports": "रिपोर्ट",
+      "complaints": "शिकायतें",
+      "services": "सेवाएं"
+    },
+    "employee": {
+      "dashboard": "डैशबोर्ड",
+      "customer": "ग्राहक",
+      "orders": "आदेश",
+      "payments": "भुगतान",
+      "support": "सहायता"
+    },
+    "fieldAgent": {
+      "myAssignments": "मेरे असाइनमेंट",
+      "locationTracking": "स्थान ट्रैकिंग",
+      "routeOptimization": "मार्ग अनुकूलन",
+      "vehicleManagement": "वाहन प्रबंधन",
+      "photoCapture": "फोटो कैप्चर",
+      "reports": "रिपोर्ट"
+    },
+    "marketing": {
+      "analytics": "विश्लेषण",
+      "campaigns": "अभियान",
+      "leadManagement": "लीड प्रबंधन"
+    }
+  },
+  "stats": {
+    "totalUsers": "कुल उपयोगकर्ता",
+    "activeSessions": "सक्रिय सत्र",
+    "totalRevenue": "कुल राजस्व",
+    "openComplaints": "खुली शिकायतें"
+  },
+  "home": {
+    "title": "प्रसाद डैशबोर्ड में आपका स्वागत है",
+    "subtitle": "आधुनिक डिज़ाइन और शक्तिशाली सुविधाओं के साथ आपके संगठन के प्रबंधन के लिए एक व्यापक भूमिका-आधारित डैशबोर्ड एप्लिकेशन।",
+    "roleBasedAccess": "भूमिका-आधारित पहुंच नियंत्रण",
+    "roleBasedDescription": "आपके संगठन में प्रत्येक भूमिका के लिए अनुकूलित विभिन्न डैशबोर्ड अनुभव",
+    "features": {
+      "roleBasedAccess": "भूमिका-आधारित पहुंच",
+      "roleBasedDescription": "विभिन्न भूमिकाओं के लिए अलग डैशबोर्ड",
+      "modernDesign": "आधुनिक डिज़ाइन",
+      "modernDescription": "स्वच्छ और सहज उपयोगकर्ता इंटरफ़ेस",
+      "secure": "सुरक्षित",
+      "secureDescription": "Firebase प्रमाणीकरण और सुरक्षा",
+      "responsive": "उत्तरदायी",
+      "responsiveDescription": "सभी डिवाइसेस पर पूर्ण रूप से काम करता है"
+    }
+  },
+  "roles": {
+    "admin": "एडमिन",
+    "adminDescription": "पूर्ण सिस्टम नियंत्रण और उपयोगकर्ता प्रबंधन",
+    "marketing": "मार्केटिंग",
+    "marketingDescription": "अभियान विश्लेषण और ग्राहक अंतर्दृष्टि",
+    "employee": "कर्मचारी",
+    "employeeDescription": "कार्य प्रबंधन और व्यक्तिगत कार्यक्षेत्र",
+    "fieldAgent": "फील्ड एजेंट",
+    "fieldAgentDescription": "स्थान ट्रैकिंग और फील्ड रिपोर्टिंग"
+  },
+  "languages": {
+    "english": "English",
+    "hindi": "हिंदी"
+  },
+  "fieldAgent": {
+    "fieldAgent": "फील्ड एजेंट",
+    "dashboard": "डैशबोर्ड",
+    "assignments": "असाइनमेंट",
+    "location": "स्थान",
+    "photos": "फोटो",
+    "reports": "रिपोर्ट",
+    "settings": "सेटिंग्स",
+    "welcome": "वापसी पर स्वागत है, फील्ड एजेंट",
+    "todayAssignments": "आज के असाइनमेंट",
+    "completedTasks": "पूर्ण कार्य",
+    "pendingTasks": "लंबित कार्य",
+    "myAssignments": "मेरे असाइनमेंट",
+    "visitClient": "क्लाइंट A का दौरा करें",
+    "clientAddress": "123 बिजनेस स्ट्रीट, मुंबई",
+    "surveyArea": "क्षेत्र B का सर्वेक्षण करें",
+    "surveyLocation": "सेक्टर 15, नोएडा",
+    "pending": "लंबित",
+    "completed": "पूर्ण",
+    "locationTracking": "स्थान ट्रैकिंग",
+    "currentLocation": "वर्तमान स्थान:",
+    "mapPlaceholder": "[मानचित्र यहाँ प्रदर्शित होगा]",
+    "photoGallery": "फोटो गैलरी",
+    "fieldReports": "फील्ड रिपोर्ट",
+    "reportDate": "दिनांक",
+    "reportType": "प्रकार",
+    "status": "स्थिति",
+    "siteVisit": "साइट विज़िट",
+    "submitted": "जमा किया गया",
+    "notificationSettings": "सूचना सेटिंग्स",
+    "emailNotifications": "ईमेल सूचनाएं",
+    "pushNotifications": "पुश सूचनाएं"
+  },
+  "marketing": {
+    "marketing": "मार्केटिंग",
+    "dashboard": "डैशबोर्ड",
+    "campaigns": "अभियान",
+    "analytics": "विश्लेषण",
+    "leads": "लीड्स",
+    "email": "ईमेल",
+    "settings": "सेटिंग्स",
+    "welcome": "वापसी पर स्वागत है, मार्केटिंग टीम",
+    "activeCampaigns": "सक्रिय अभियान",
+    "totalLeads": "कुल लीड्स",
+    "conversionRate": "कन्वर्जन दर",
+    "revenue": "राजस्व",
+    "recentCampaigns": "हाल के अभियान",
+    "summerSale": "समर सेल 2024",
+    "newProduct": "नया प्रोडक्ट लॉन्च",
+    "active": "सक्रिय",
+    "scheduled": "निर्धारित",
+    "topPerforming": "शीर्ष प्रदर्शन चैनल",
+    "emailMarketing": "ईमेल मार्केटिंग",
+    "socialMedia": "सोशल मीडिया",
+    "campaignManagement": "अभियान प्रबंधन",
+    "createCampaign": "अभियान बनाएं",
+    "campaignName": "अभियान का नाम",
+    "type": "प्रकार",
+    "performance": "प्रदर्शन",
+    "social": "सोशल",
+    "marketingAnalytics": "मार्केटिंग विश्लेषण",
+    "trafficSources": "ट्रैफिक स्रोत",
+    "conversionFunnel": "कन्वर्जन फ़नल",
+    "chartPlaceholder": "[चार्ट यहाँ प्रदर्शित होगा]",
+    "leadManagement": "लीड प्रबंधन",
+    "allLeads": "सभी लीड्स",
+    "newLeads": "नए लीड्स",
+    "qualified": "योग्य",
+    "leadName": "लीड का नाम",
+    "source": "स्रोत",
+    "score": "स्कोर",
+    "website": "वेबसाइट",
+    "contacted": "संपर्क किया गया",
+    "createEmail": "ईमेल बनाएं",
+    "sentEmails": "भेजे गए ईमेल",
+    "openRate": "खुलने की दर",
+    "clickRate": "क्लिक दर",
+    "defaultCampaignSettings": "डिफ़ॉल्ट अभियान सेटिंग्स",
+    "autoOptimize": "स्वचालित अनुकूलन अभियान",
+    "trackConversions": "कन्वर्जन ट्रैक करें"
+  },
+  "common": {
+    "logout": "लॉगआउट",
+    "pageNotFound": "पेज नहीं मिला"
+  },
+  "hero": {
+    "tagline": "भारत भर में पेशेवर ड्रोन सेवाएं",
+    "title": "उन्नत के साथ अपने व्यवसाय को ऊंचा करें",
+    "highlight": "ड्रोन समाधान",
+    "description": "सटीक कृषि से लेकर अवसंरचना निरीक्षण तक, हम उद्यमों, सरकारी और विशेष उद्योगों के लिए अत्याधुनिक हवाई समाधान प्रदान करते हैं।",
+    "cta": "सेवा बुक करें"
+  },
+  "landingstats": {
+    "satisfiedClients": "संतुष्ट ग्राहक",
+    "projectsCompleted": "पूरा किए गए प्रोजेक्ट्स",
+    "industryCertifications": "उद्योग प्रमाणपत्र",
+    "clientSatisfaction": "ग्राहक संतोष"
+  },
+  "industries": {
+    "header": "हम जिन उद्योगों में सेवा प्रदान करते हैं",
+    "subheader": "आपके उद्योग की ज़रूरतों के लिए विशेष ड्रोन समाधान",
+    "learnMore": "और जानें",
+    "viewAllServices": "सभी सेवाएं देखें",
+    "agriculture": {
+      "title": "कृषि और खेती",
+      "description": "कृषि और खेती के लिए उन्नत हवाई समाधान"
+    },
+    "construction": {
+      "title": "निर्माण",
+      "description": "निर्माण के लिए उन्नत हवाई समाधान"
+    },
+    "energy": {
+      "title": "ऊर्जा और उपयोगिताएँ",
+      "description": "ऊर्जा और उपयोगिताओं के लिए उन्नत हवाई समाधान"
+    },
+    "publicSafety": {
+      "title": "सार्वजनिक सुरक्षा और सरकार",
+      "description": "सार्वजनिक सुरक्षा और सरकारी कार्यों के लिए उन्नत हवाई समाधान"
+    }
+  },
+  "blogs": {
+    "header": "ब्लॉग और शोध",
+    "subheader": "उद्योग अंतर्दृष्टि का अन्वेषण करें, वास्तविक सफलता की कहानियों से सीखें, और हमारे विशेषज्ञ श्वेतपत्रों के माध्यम से गहन ज्ञान प्राप्त करें।",
+    "learnMore": "और जानें",
+    "viewAll": "सभी ब्लॉग और शोध देखें",
+    "agriculture": {
+      "category": "उद्योग अंतर्दृष्टि",
+      "title": "भारत में सटीक कृषि का भविष्य",
+      "description": "ड्रोन तकनीक कैसे खेती के तरीकों में क्रांति ला रही है और उपज को 30% तक बढ़ा रही है।"
+    },
+    "construction": {
+      "category": "सफलता की कहानियाँ",
+      "title": "निर्माण में 5 ड्रोन नवाचार",
+      "description": "वास्तविक दुनिया के उदाहरण कि कैसे प्रमुख निर्माण कंपनियां समय और पैसे बचाने के लिए ड्रोन का उपयोग कर रही हैं।"
+    }
+  },
+  "faq": {
+    "header": "अक्सर पूछे जाने वाले प्रश्न",
+    "q1": "आप किन क्षेत्रों में सेवा प्रदान करते हैं?",
+    "a1": "हम भारत के सभी 28 राज्यों और 8 केंद्र शासित प्रदेशों में ड्रोन सेवाएँ प्रदान करते हैं। अधिकांश स्थानों के लिए हमारी टीम 24-48 घंटों में तैनात हो सकती है।",
+    "q2": "क्या आपके पायलट प्रमाणित हैं?",
+    "a2": "हां, हमारे सभी पायलट DGCA (नागरिक उड्डयन महानिदेशालय) द्वारा प्रमाणित हैं और वाणिज्यिक ड्रोन संचालन में व्यापक प्रशिक्षण और अनुभव रखते हैं।",
+    "q3": "मैं ड्रोन सेवा कैसे बुक कर सकता हूं?",
+    "a3": "आप हमारी सेवाओं को हमारी वेबसाइट, मोबाइल ऐप या हमारे ग्राहक सेवा टीम को कॉल करके बुक कर सकते हैं। हम आपकी आवश्यकताओं पर चर्चा करेंगे और एक अनुकूलित कोट प्रदान करेंगे।",
+    "q4": "डेटा डिलीवरी का सामान्य समय क्या है?",
+    "a4": "प्रक्रियाजात डेटा के लिए सामान्य समय 3-5 कार्यदिवस है। तात्कालिक परियोजनाओं के लिए 24-48 घंटे में रश डिलीवरी विकल्प उपलब्ध हैं।",
+    "q5": "पायलट प्रशिक्षण में कितना समय लगता है?",
+    "a5": "हमारा व्यापक पायलट प्रशिक्षण कार्यक्रम 4-6 सप्ताह का होता है, जिसमें सैद्धांतिक ज्ञान और प्रायोगिक उड़ान सत्र दोनों शामिल हैं, और DGCA प्रमाणन के साथ समाप्त होता है।",
+    "q6": "क्या आप हमारे मौजूदा सिस्टम के साथ एकीकरण कर सकते हैं?",
+    "a6": "हां, हम API एकीकरण प्रदान करते हैं और अधिकांश एंटरप्राइज सिस्टम के साथ काम कर सकते हैं। हमारे तकनीकी टीम आपके IT विभाग के साथ समन्वय करेगी।",
+    "q7": "आप किस डेटा प्रारूप में डिलीवर करते हैं?",
+    "a7": "हम डेटा कई प्रारूपों में प्रदान करते हैं, जिनमें GeoTIFF, JPG, PNG, PDF रिपोर्ट, CAD फ़ाइलें और 3D मॉडल शामिल हैं। आपकी आवश्यकताओं के अनुसार कस्टम प्रारूप भी उपलब्ध हैं।",
+    "q8": "क्या आप सदस्यता पैकेज प्रदान करते हैं?",
+    "a8": "हां, हम नियमित निगरानी और निरीक्षण सेवाओं के लिए लचीले सदस्यता पैकेज प्रदान करते हैं। एक कस्टम पैकेज पर चर्चा करने के लिए संपर्क करें।"
+  },
+  "about": {
+    "header": "हिंदुस्तान ड्रोन सर्विसेज़ के बारे में",
+    "description": "भारत की प्रमुख ड्रोन सेवा प्रदाता, 2018 से उत्कृष्ट हवाई समाधान प्रदान कर रही है। सरकारी एजेंसियों, फॉर्च्यून 500 कंपनियों और देशभर के उद्यमों द्वारा भरोसा किया गया।"
+  },
+  "mission": {
+    "header": "हमारा मिशन",
+    "description": "उद्योगों में क्रांति लाने के लिए सुलभ, सुरक्षित और नवीन ड्रोन प्रौद्योगिकी। हम अत्याधुनिक हवाई क्षमताओं और वास्तविक व्यवसाय की आवश्यकताओं के बीच सेतु बनाते हैं, अपने ग्राहकों को मापनीय मूल्य प्रदान करते हैं। हमारा लक्ष्य पूरे भारत में सबसे भरोसेमंद ड्रोन सेवा साझेदार बनना है, गुणवत्ता, सुरक्षा और ग्राहक संतोष के लिए उद्योग मानक स्थापित करना।",
+    "coreValuesHeader": "हमारे मूल मूल्य",
+    "safetyFirst": {
+      "title": "सुरक्षा पहले",
+      "description": "ऑपरेशंस और अनुपालन में बिना समझौता किए गए मानक"
+    },
+    "innovation": {
+      "title": "नवाचार",
+      "description": "अत्याधुनिक प्रौद्योगिकी और लगातार सुधार"
+    },
+    "customerFocus": {
+      "title": "ग्राहक केंद्रित",
+      "description": "हर ग्राहक की आवश्यकता के लिए अनुकूलित समाधान"
+    }
+  },
+  "team": {
+    "header": "नेतृत्व टीम",
+    "subheader": "विशेषज्ञता द्वारा समर्थित, नवाचार द्वारा प्रेरित। हमारी टीम पूरे देश में ड्रोन सेवाओं की उत्कृष्टता के मानक स्थापित करने के लिए प्रतिबद्ध है।",
+    "arun": {
+      "name": "अरुण रेड्डी",
+      "role": "निर्देशक - क्लाइंट संबंध",
+      "description": "10+ वर्षों का लॉजिस्टिक्स प्रबंधन"
+    },
+    "priya": {
+      "name": "प्रिय शर्मा",
+      "role": "COO - पायलट संचालन",
+      "description": "पूर्व-IAF, 3000+ उड़ान घंटे"
+    },
+    "meena": {
+      "name": "मीना पटेल",
+      "role": "तकनीकी उपाध्यक्ष",
+      "description": "IIT बॉम्बे, एयरोस्पेस इंजीनियरिंग"
+    },
+    "rajeev": {
+      "name": "राजीव कुमार",
+      "role": "CEO और संस्थापक",
+      "description": "एविएशन में 15+ वर्षों का अनुभव"
+    }
+  },
+  "services": {
+    "header": "व्यापक ड्रोन सेवाएँ",
+    "subheader": "आपके उद्योग के लिए पेशेवर हवाई समाधान। अत्याधुनिक तकनीक द्वारा संचालित और प्रमाणित विशेषज्ञों द्वारा संचालित।",
+    "bookService": "सेवा बुक करें",
+    "learnMore": "और जानें",
+    "agriculture": {
+      "title": "कृषि और खेती",
+      "description": "कृषि और खेती के लिए उन्नत हवाई समाधान",
+      "features": {
+        "cropMonitoring": "फसल स्वास्थ्य निगरानी",
+        "precisionSpraying": "सटीक छिड़काव",
+        "irrigationMapping": "सिंचाई मैपिंग",
+        "yieldPrediction": "उत्पादन पूर्वानुमान"
+      }
+    },
+    "construction": {
+      "title": "निर्माण और अवसंरचना",
+      "description": "निर्माण के लिए उन्नत हवाई समाधान",
+      "features": {
+        "siteMapping": "3D साइट मैपिंग",
+        "progressTracking": "प्रगति ट्रैकिंग",
+        "volumetricCalc": "आयतन गणना",
+        "safetyAudits": "सुरक्षा ऑडिट"
+      }
+    },
+    "energy": {
+      "title": "ऊर्जा और उपयोगिताएँ",
+      "description": "पावर लाइन निरीक्षण, सौर पैनल आकलन, पवन टरबाइन निगरानी।",
+      "features": {
+        "thermalImaging": "थर्मल इमेजिंग",
+        "assetInspection": "संपत्ति निरीक्षण",
+        "vegetationMgmt": "वनस्पति प्रबंधन",
+        "faultDetection": "त्रुटि पहचान"
+      }
+    },
+    "publicSafety": {
+      "title": "सार्वजनिक सुरक्षा और सरकार",
+      "description": "आपातकालीन प्रतिक्रिया, आपदा प्रबंधन, निगरानी, और भीड़ निगरानी।",
+      "features": {
+        "emergency": "आपातकालीन प्रतिक्रिया",
+        "disaster": "आपदा आकलन",
+        "surveillance": "सीमा निगरानी",
+        "trafficMonitoring": "यातायात निगरानी"
+      }
+    }
+  },
+  "contact": {
+    "header": "संपर्क करें",
+    "subheader": "ड्रोन तकनीक के साथ अपने संचालन को बदलने के लिए तैयार? आज ही हमारी टीम से संपर्क करें।"
+  },
+  "contact2": {
+    "form": {
+      "header": "संपर्क करें",
+      "firstName": "प्रथम नाम",
+      "firstNamePlaceholder": "जॉन",
+      "lastName": "अंतिम नाम",
+      "lastNamePlaceholder": "स्मिथ",
+      "phone": "फ़ोन नंबर",
+      "phonePlaceholder": "+91 98165 43210",
+      "email": "ईमेल",
+      "emailPlaceholder": "उदाहरण@gmail.com",
+      "subject": "विषय",
+      "subjectPlaceholder": "आप क्या चाहते हैं",
+      "message": "संदेश",
+      "messagePlaceholder": "अपना संदेश यहाँ लिखें",
+      "submit": "संदेश भेजें"
+    }
+  },
+  "footer": {
+    "cta": {
+      "title": "चलो ड्रोन बुक करें!",
+      "description": "अपनी ज़रूरतों के लिए अत्याधुनिक ड्रोन सेवाएं प्राप्त करें — कृषि और निर्माण से लेकर ऊर्जा, सुरक्षा और अधिक तक। हमारे प्रमाणित पायलट और उन्नत तकनीक हर बार सटीकता, दक्षता और सुरक्षा सुनिश्चित करते हैं। आज ही बुक करें और हवाई समाधानों का भविष्य अनुभव करें।",
+      "button": "सेवा बुक करें"
+    },
+    "brand": {
+      "name": "डेमो लोगो",
+      "description": "कृषि, निर्माण, ऊर्जा और अधिक के लिए पेशेवर ड्रोन सेवाएं। भारत भर के उद्यमों द्वारा भरोसेमंद।"
+    },
+    "service": {
+      "title": "सेवा",
+      "items": [
+        "कृषि और खेती",
+        "निर्माण",
+        "ऊर्जा और उपयोगिताएँ",
+        "सार्वजनिक सुरक्षा"
+      ]
+    },
+    "company": {
+      "title": "कंपनी",
+      "items": ["हमारे बारे में", "गोपनीयता नीति"]
+    },
+    "contact": {
+      "title": "संपर्क करें",
+      "address": "हैदराबाद, तेलंगाना, भारत",
+      "phone": "+91 1800 123 4567",
+      "email": "info@hindustandardrone.com"
+    },
+    "copyright": "हिंदुस्तान ड्रोन सेवाएं। सर्वाधिकार सुरक्षित।"
+  },
+  "nav": {
+    "home": "होम",
+    "about": "हमारे बारे में",
+    "services": "सेवाएँ",
+    "trainings": "प्रशिक्षण",
+    "blog": "ब्लॉग और रिसर्च",
+    "contact": "संपर्क करें",
+    "download": "एप डाउनलोड करें",
+    "login": "लॉगिन"
+  },
+  "blog": {
+    "title": "ब्लॉग और शोध",
+    "subtitle": "भारत के अग्रणी ड्रोन सेवा प्रदाता से उद्योग अंतर्दृष्टि, सफलता की कहानियाँ और शोध।",
+    "description": "उद्योग की अंतर्दृष्टि खोजें, वास्तविक सफलता की कहानियों से सीखें, और हमारे विशेषज्ञ श्वेतपत्रों के माध्यम से गहन ज्ञान प्राप्त करें।"
+  },
+  "reports": {
+    "title": "रिपोर्ट",
+    "subtitle": "ग्राहकों और ड्रोन ऑपरेटरों के लिए भुगतान विधियों को कॉन्फ़िगर और प्रबंधित करें",
+    "last7DaysRevenue": "पिछले 7 दिनों का राजस्व",
+    "monthlyRevenue": "मासिक राजस्व"
+  },
+  "complaints": {
+    "title": "शिकायतें",
+    "subtitle": "देखें कि किन ग्राहकों ने शिकायतें जमा की हैं।",
+    "table": {
+      "customer": "ग्राहक",
+      "complainTitle": "शिकायत का शीर्षक",
+      "ticketId": "शिकायत आईडी/टिकट आईडी",
+      "rating": "शिकायत का शीर्षक",
+      "actions": "कार्रवाई",
+      "seeDetails": "विवरण देखें"
+    },
+    "pagination": {
+      "showing": "{{count}} में से {{total}} ग्राहक दिखा रहे हैं",
+      "previous": "पिछला",
+      "next": "अगला"
+    }
+  },
+  "audience": {
+    "title": "लक्षित दर्शक",
+    "location": "स्थान",
+    "demographics": "जनसांख्यिकी",
+    "age": "आयु",
+    "income": "आय",
+    "audienceType": "दर्शक प्रकार"
+  },
+  "heatmap": {
+    "title": "हीटमैप",
+    "high": "उच्च",
+    "medium": "मध्यम",
+    "low": "निम्न"
+  },
+  "regions": {
+    "Kashmir": "कश्मीर",
+    "Himachal Pradesh": "हिमाचल प्रदेश",
+    "Panjab": "पंजाब",
+    "Uttarakhand": "उत्तराखंड",
+    "Haryana": "हरियाणा",
+    "Rajasthan": "राजस्थान",
+    "Gujarat": "गुजरात",
+    "Uttar Pradesh": "उत्तर प्रदेश",
+    "Madhya Pradesh": "मध्य प्रदेश",
+    "Bihar": "बिहार",
+    "Maharashtra": "महाराष्ट्र",
+    "Goa": "गोवा",
+    "Karnataka": "कर्नाटक",
+    "Kerala": "केरल",
+    "Sikkim": "सिक्किम",
+    "Arunanchal Pradesh": "अरुणाचल प्रदेश",
+    "Nagaland": "नागालैंड",
+    "Manipur": "मणिपुर",
+    "Mizoram": "मिजोरम",
+    "JharKhand": "झारखंड",
+    "Assam": "असम",
+    "Meghalaya": "मेघालय",
+    "Jammu": "जम्मू",
+    "West Bengal": "पश्चिम बंगाल",
+    "Chhattisgarh": "छत्तीसगढ़",
+    "Odisha": "ओडिशा",
+    "Tamil Nadu": "तमिलनाडु",
+    "Andhra Pradesh": "आंध्र प्रदेश",
+    "Tripura": "त्रिपुरा",
+    "Telangana": "तेलंगाना"
+  },
+  "categories": {
+    "mappingAndSurveying": {
+      "label": "मैपिंग और सर्वेक्षण",
+      "sub": {
+        "droneMapping": "ड्रोन मानचित्रण और सर्वेक्षण (MAP)",
+        "generalSurveying": "सामान्य सर्वेक्षण और मानचित्रण (SRV)",
+        "groundCollection": "ज़मीनी संग्रह (GRC)",
+        "dataAnalysis": "डेटा विश्लेषण (DAT)"
+      }
+    },
+    "aerialMediaServices": {
+      "label": "हवाई मीडिया सेवाएँ",
+      "sub": {
+        "aerialPhotography": "हवाई फोटोग्राफी और वीडियोग्राफी (VID)",
+        "cinematography": "सिनेमैटोग्राफी (CIN)",
+        "weddingCoverage": "शादी कवरेज (WED)",
+        "editing": "संपादन (EDT)"
+      }
+    },
+    "realEstateMarketing": {
+      "label": "रियल एस्टेट और मार्केटिंग",
+      "sub": {
+        "realEstateMarketingServices": "रियल एस्टेट मार्केटिंग सेवाएँ (REM)",
+        "residentialPhotography": "आवासीय फ़ोटोग्राफी (RPH)",
+        "landSurveying": "भूमि सर्वेक्षण (LND)",
+        "roofInspection": "छत निरीक्षण (RFI)"
+      }
+    },
+    "agriculture": {
+      "label": "कृषि",
+      "sub": {
+        "agriculturalServices": "कृषि सेवाएँ (AGP)",
+        "agriculturalSpray": "कृषि छिड़काव (AGS)",
+        "agriculturalSpread": "कृषि फैलाव (AGP)"
+      }
+    },
+    "inspectionInfrastructure": {
+      "label": "निरीक्षण और बुनियादी ढाँचा",
+      "sub": {
+        "infrastructureInspectionServices": "बुनियादी ढाँचा निरीक्षण सेवाएँ (INF)",
+        "aerialInspections": "हवाई निरीक्षण (AIN)",
+        "constructionSiteMonitoring": "निर्माण स्थल की निगरानी (CON)",
+        "generalInfrastructure": "सामान्य बुनियादी ढाँचा (IFG)"
+      }
+    },
+    "specializedOperations": {
+      "label": "विशेष संचालन",
+      "sub": {
+        "droneDeliveryServices": "ड्रोन डिलीवरी सेवाएँ (DLV)",
+        "boatingWaterSports": "नौका विहार और जल क्रीड़ा (BWS)",
+        "sports": "खेल (SPR)"
+      }
+    },
+    "supportTraining": {
+      "label": "समर्थन और प्रशिक्षण",
+      "sub": {
+        "droneMaintenance": "ड्रोन रखरखाव (DMN)",
+        "droneTraining": "ड्रोन प्रशिक्षण (TRN)"
+      }
+    },
+    "other": {
+      "label": "अन्य",
+      "sub": {
+        "miscellaneous": "विविध / कस्टम"
+      }
+    }
+  }
+}

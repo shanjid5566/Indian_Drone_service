@@ -1,0 +1,43 @@
+{
+  "title": "Reports & Analytics",
+  "last7DaysRevenue": {
+    "labels": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+    "datasets": [
+      {
+        "label": "Revenue",
+        "data": [450, 500, 600, 550, 500, 650, 550],
+        "borderColor": "#28A844",
+        "backgroundColor": "rgba(40, 168, 68, 0.1)",
+        "fill": true,
+        "tension": 0.4
+      }
+    ]
+  },
+  "monthlyRevenue": {
+    "labels": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "datasets": [
+      {
+        "label": "Monthly Revenue",
+        "data": [
+          35000, 50000, 38000, 42000, 60000, 50000, 65000, 55000, 60000, 65000,
+          70000, 65000
+        ],
+        "backgroundColor": "#28A844",
+        "borderRadius": 4
+      }
+    ]
+  }
+}
