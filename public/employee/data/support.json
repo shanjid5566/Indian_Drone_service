@@ -1,0 +1,148 @@
+{
+  "supportData": [
+    {
+      "id": 1,
+      "serviceName": "TXN-001",
+      "name": "Eleanor Pena",
+      "issues": "Payment delayed due to discount adjustment",
+      "date": "15/10/2025",
+      "progress": "Completed",
+      "priority": "Low"
+    },
+    {
+      "id": 2,
+      "serviceName": "TXN-002",
+      "name": "Esther Howard",
+      "issues": "Outstanding balance requires confirmation",
+      "date": "18/10/2025",
+      "progress": "Processed",
+      "priority": "Medium"
+    },
+    {
+      "id": 3,
+      "serviceName": "TXN-003",
+      "name": "Theresa Webb",
+      "issues": "Awaiting approval from finance department",
+      "date": "20/10/2025",
+      "progress": "Pending",
+      "priority": "Medium"
+    },
+    {
+      "id": 4,
+      "serviceName": "TXN-004",
+      "name": "Floyd Miles",
+      "issues": "High outstanding balance flagged for review",
+      "date": "12/10/2025",
+      "progress": "Completed",
+      "priority": "High"
+    },
+    {
+      "id": 5,
+      "serviceName": "TXN-005",
+      "name": "Marvin McKinney",
+      "issues": "User unable to complete payment due to timeout",
+      "date": "19/10/2025",
+      "progress": "Processed",
+      "priority": "Medium"
+    },
+    {
+      "id": 6,
+      "serviceName": "TXN-006",
+      "name": "Darlene Robertson",
+      "issues": "Refund request pending finance approval",
+      "date": "21/10/2025",
+      "progress": "Pending",
+      "priority": "Low"
+    },
+    {
+      "id": 7,
+      "serviceName": "TXN-007",
+      "name": "Cameron Williamson",
+      "issues": "Customer card declined multiple times",
+      "date": "10/10/2025",
+      "progress": "Completed",
+      "priority": "High"
+    },
+    {
+      "id": 8,
+      "serviceName": "TXN-008",
+      "name": "Courtney Henry",
+      "issues": "Duplicate transaction requires review",
+      "date": "17/10/2025",
+      "progress": "Processed",
+      "priority": "Medium"
+    },
+    {
+      "id": 9,
+      "serviceName": "TXN-009",
+      "name": "Devon Lane",
+      "issues": "Customer reported incorrect charge",
+      "date": "22/10/2025",
+      "progress": "Pending",
+      "priority": "High"
+    },
+    {
+      "id": 10,
+      "serviceName": "TXN-010",
+      "name": "Annette Black",
+      "issues": "Payment gateway issue - connection failed",
+      "date": "22/10/2025",
+      "progress": "Pending",
+      "priority": "High"
+    },
+    {
+      "id": 11,
+      "serviceName": "TXN-011",
+      "name": "Ralph Edwards",
+      "issues": "Transaction flagged for manual review",
+      "date": "14/10/2025",
+      "progress": "Completed",
+      "priority": "Medium"
+    },
+    {
+      "id": 12,
+      "serviceName": "TXN-012",
+      "name": "Jerome Bell",
+      "issues": "Customer needs invoice reissued",
+      "date": "16/10/2025",
+      "progress": "Processed",
+      "priority": "Low"
+    },
+    {
+      "id": 13,
+      "serviceName": "TXN-013",
+      "name": "Kathryn Murphy",
+      "issues": "Multiple failed login attempts before transaction",
+      "date": "21/10/2025",
+      "progress": "Pending",
+      "priority": "Medium"
+    },
+    {
+      "id": 14,
+      "serviceName": "TXN-014",
+      "name": "Jenny Wilson",
+      "issues": "Bank rejected payment due to limit exceeded",
+      "date": "13/10/2025",
+      "progress": "Processed",
+      "priority": "High"
+    },
+    {
+      "id": 15,
+      "serviceName": "TXN-015",
+      "name": "Wade Warren",
+      "issues": "Customer reported system crash during checkout",
+      "date": "20/10/2025",
+      "progress": "Pending",
+      "priority": "High"
+    },
+    {
+      "id": 16,
+      "serviceName": "TXN-016",
+      "name": "Jacob Jones",
+      "issues": "Email confirmation not received after payment",
+      "date": "11/10/2025",
+      "progress": "Completed",
+      "priority": "Low"
+    }
+  ]
+}

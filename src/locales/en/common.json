@@ -1,0 +1,1471 @@
+{
+  "navigation": {
+    "dashboard": "Dashboard",
+    "login": "Login",
+    "logout": "Logout",
+    "getStarted": "Get Started",
+    "goToDashboard": "Go to Dashboard"
+  },
+  "auth": {
+    "welcomeBack": "Welcome Back",
+    "signInToAccount": "Sign in to your account",
+    "email": "Email",
+    "password": "Password",
+    "signIn": "Sign In",
+    "signingIn": "Signing in...",
+    "demoAccounts": "Demo Accounts",
+    "passwordHint": "Password: 12345",
+    "demoAccountsNote": "Demo accounts will be created automatically on first login."
+  },
+  "dashboard": {
+    "admin": {
+      "title": "Admin Dashboard",
+      "subtitle": "Monitor your platform performance and key metrics",
+      "welcome": "Welcome back, Administrator",
+      "fullAccess": "Full Access",
+      "overview": "Overview",
+      "overviewDescription": "Welcome to your admin dashboard. Use the sidebar to navigate between different sections.",
+      "stats": {
+        "active-users": {
+          "label": "Active Users",
+          "change": "+8.2% from last month"
+        },
+        "total-jobs": {
+          "label": "Total Jobs",
+          "change": "+12% from last month"
+        },
+        "revenue": {
+          "label": "Revenue",
+          "change": "+7% from last month"
+        },
+        "complaints": {
+          "label": "Complaints",
+          "change": "-4% from last month"
+        },
+        "tickets": {
+          "label": "Tickets",
+          "change": "+8.2% from last month"
+        }
+      },
+      "revenueChart": {
+        "title": "Last 7 days revenue"
+      },
+      "userActivity": {
+        "title": "Recent User Activity",
+        "headers": {
+          "user": "User",
+          "role": "Role",
+          "jobTitle": "Job Title",
+          "status": "Status",
+          "lastActive": "Last Active",
+          "actions": "Actions"
+        },
+        "pagination": {
+          "showing": "Showing {{current}} of {{total}} Users"
+        }
+      },
+      "settings": {
+        "title": "Backend Integrations",
+        "subtitle": "Manage payment gateway connections and API configurations",
+        "addPaymentButton": "Add payment methods",
+        "indianSystems": "Indian Systems",
+        "international": "International",
+        "walletServices": "Wallet Services",
+        "status": {
+          "testing": "Testing",
+          "active": "Active"
+        },
+        "modal": {
+          "title": "Add new payment methods",
+          "apiKeyLabel": "API Key",
+          "apiKeyPlaceholder": "***********",
+          "urlLabel": "URL",
+          "urlPlaceholder": "https://api.droneplatform.com/webhooks/payments",
+          "saveButton": "Save Configuration"
+        },
+        "configModal": {
+          "title": "Payment Management",
+          "apiKeyLabel": "API Key",
+          "statusLabel": "Status",
+          "webhookUrlLabel": "Webhook URL",
+          "saveButton": "Save Configuration",
+          "cancelButton": "Cancel"
+        }
+      },
+
+      "userManagement": {
+        "title": "User Management",
+        "tabUser": "Operator",
+        "tabCustomer": "Customer",
+        "tabEmployee": "Employee",
+        "tabFieldAgent": "Field agent",
+        "subTabAll": "All Drone Operators",
+        "subTabPending": "Pending",
+        "searchPlaceholder": "Search",
+        "tableHeaders": {
+          "dateTime": "DATE/TIME",
+          "name": "NAME",
+          "location": "LOCATION",
+          "registrationId": "REGISTRATION ID",
+          "actions": "ACTIONS"
+        },
+        "seeDetails": "See Details",
+        "showing": "Showing {{count}} of {{total}} Users",
+        "noUsersFound": "No Users Found",
+        "modal": {
+          "aboutTitle": "About this User",
+          "fullName": "Full Name:",
+          "phoneNumber": "Phone number:",
+          "email": "Email:",
+          "latLong": "Latitude/Longitude:",
+          "industry": "Industry:",
+          "approveButton": "Approved",
+          "cancelButton": "Cancelled"
+        }
+      },
+
+      "customerManagement": {
+        "title": "Customer Management",
+        "tabOperator": "Operator",
+        "tabCustomer": "Customer",
+        "tabEmployee": "Employee",
+        "tabFieldAgent": "Field agent",
+        "searchPlaceholder": "Search",
+        "tableHeaders": {
+          "customer": "Customer",
+          "status": "Status",
+          "totalOrder": "Total order",
+          "lastActive": "Last Active",
+          "actions": "Actions"
+        },
+        "status": {
+          "active": "Active",
+          "suspended": "Suspended"
+        },
+        "actions": {
+          "viewDetails": "View Details",
+          "suspend": "Suspend User",
+          "activate": "Activate User"
+        },
+        "showing": "Showing {{count}} of {{total}} Users",
+        "noCustomersFound": "No Customers Found",
+        "fetchError": "Failed to fetch customer data",
+        "pagination": {
+          "previous": "Previous",
+          "next": "Next"
+        },
+        "modal": {
+          "title": "Customer Details",
+          "email": "Email",
+          "phone": "Phone Number",
+          "address": "Address",
+          "totalOrders": "Total Orders",
+          "registrationDate": "Registration Date",
+          "lastActive": "Last Active",
+          "customerId": "Customer ID",
+          "close": "Close",
+          "suspend": "Suspend Customer",
+          "activate": "Activate Customer"
+        }
+      },
+
+      "employeeManagement": {
+        "title": "Employee Management",
+        "addEmployees": "Add employees",
+        "searchPlaceholder": "Search",
+        "tableHeaders": {
+          "employees": "Employees",
+          "role": "Role",
+          "roleCode": "Role Code",
+          "startDate": "End Date",
+          "endDate": "End Date",
+          "annualSalary": "Annual salary",
+          "lastActive": "Last Active",
+          "actions": "Actions"
+        },
+        "status": {
+          "active": "Active",
+          "inactive": "Inactive"
+        },
+        "actions": {
+          "viewDetails": "View Details",
+          "edit": "Edit Employee",
+          "deactivate": "Deactivate Employee",
+          "activate": "Activate Employee"
+        },
+        "showing": "Showing {{count}} of {{total}} Users",
+        "noEmployeesFound": "No Employees Found",
+        "fetchError": "Failed to fetch employee data",
+        "pagination": {
+          "previous": "Previous",
+          "next": "Next"
+        },
+        "modal": {
+          "title": "Employee Details",
+          "email": "Email",
+          "phone": "Phone Number",
+          "address": "Address",
+          "role": "Role",
+          "roleCode": "Role Code",
+          "department": "Department",
+          "startDate": "Start Date",
+          "endDate": "End Date",
+          "annualSalary": "Annual Salary",
+          "lastActive": "Last Active",
+          "employeeId": "Employee ID",
+          "close": "Close",
+          "deactivate": "Deactivate Employee",
+          "activate": "Activate Employee"
+        }
+      },
+
+      "fieldAgentManagement": {
+        "title": "Field Agent Management",
+        "searchPlaceholder": "Search",
+        "tableHeaders": {
+          "fieldAgent": "Field agent",
+          "totalAddCustomer": "Total add customer",
+          "totalAddOperator": "Total add operator",
+          "totalBookOrders": "Total book orders",
+          "status": "Status",
+          "actions": "Actions"
+        },
+        "status": {
+          "active": "Active",
+          "suspended": "Suspended"
+        },
+        "actions": {
+          "viewDetails": "View Details",
+          "suspend": "Suspend Agent",
+          "activate": "Activate Agent"
+        },
+        "showing": "Showing {{count}} of {{total}} Users",
+        "noFieldAgentsFound": "No Field Agents Found",
+        "fetchError": "Failed to fetch field agent data",
+        "pagination": {
+          "previous": "Previous",
+          "next": "Next"
+        },
+        "modal": {
+          "title": "Field Agent Details",
+          "email": "Email",
+          "phone": "Phone Number",
+          "address": "Address",
+          "totalAddCustomer": "Total Add Customer",
+          "totalAddOperator": "Total Add Operator",
+          "totalBookOrders": "Total Book Orders",
+          "joinDate": "Join Date",
+          "area": "Area",
+          "vehicleNumber": "Vehicle Number",
+          "agentId": "Agent ID",
+          "close": "Close",
+          "suspend": "Suspend Agent",
+          "activate": "Activate Agent"
+        }
+      },
+
+      "orderManagement": {
+        "title": "Order Management",
+        "subtitle": "Track and manage all platform jobs",
+        "scheduled": "Scheduled",
+        "inProgress": "In progress",
+        "complete": "Complete",
+        "jobs": "jobs",
+        "tableHeaders": {
+          "droneOperator": "Drone operator",
+          "status": "Status",
+          "job": "Job",
+          "progress": "Progress",
+          "actions": "Actions"
+        },
+        "status": {
+          "inProgress": "In progress",
+          "notStarted": "Not started",
+          "suspended": "Suspended"
+        },
+        "showing": "Showing {{count}} of {{total}} Users",
+        "pagination": {
+          "previous": "Previous",
+          "next": "Next"
+        }
+      },
+
+      "assignJob": {
+        "title": "Assign new job",
+        "clientName": "Client full name",
+        "clientNamePlaceholder": "Enter your first name",
+        "phoneNumber": "Phone number",
+        "email": "Email",
+        "orderId": "Oder ID",
+        "city": "City",
+        "postalCode": "Postal code",
+        "street": "Street",
+        "assignButton": "Assign"
+      },
+
+      "orderDetails": {
+        "title": "Orders info",
+        "subtitle": "Review the tasks assigned to",
+        "TotalactiveJobs": "Total active Jobs",
+        "Totalcompletejob": "Total complete job",
+        "Averagerating": "Average rating",
+        "Totaldrone": "Total drone",
+        "outOf5": "Out of 5",
+        "active": "Active",
+        "tableHeaders": {
+          "service": "Service",
+          "status": "Status",
+          "rating": "Rating",
+          "progress": "Progress",
+          "orderId": "Order ID",
+          "location": "Location",
+          "actions": "Actions"
+        },
+        "status": {
+          "inProgress": "In progress",
+          "notStarted": "Not started",
+          "completed": "Completed"
+        },
+        "noRating": "No rating now",
+        "outOfRating": "out of 5",
+        "showing": "Showing {{count}} of {{total}} jobs"
+      },
+
+      "paymentsManagement": {
+        "title": "Payment Management",
+        "subtitle": "Configure and manage payment methods for customers and drone operators",
+        "tabs": {
+          "overview": "Overview",
+          "customerPayments": "Customer payments",
+          "operatorPayments": "Operator Payments"
+        },
+        "stats": {
+          "revenue": "Revenue",
+          "activeIntegrations": "Active Integrations",
+          "paymentMethods": "Payment Methods"
+        },
+        "customerPayments": {
+          "tableHeaders": {
+            "userName": "User name",
+            "paymentMethod": "Payment method",
+            "status": "Status",
+            "transactions": "Transactions",
+            "dateTime": "Date & Time"
+          },
+          "status": {
+            "done": "Done",
+            "failed": "Failed"
+          },
+          "showing": "Showing {{count}} of {{total}} customer transactions"
+        },
+        "operatorPayments": {
+          "tableHeaders": {
+            "serviceProvider": "Service Provider",
+            "paymentMethod": "Payment method",
+            "status": "Status",
+            "payouts": "PAYOUTS",
+            "dateTime": "Date & Time"
+          },
+          "status": {
+            "done": "Done",
+            "failed": "Failed"
+          },
+          "showing": "Showing {{count}} of {{total}} customer transactions"
+        }
+      }
+    },
+    "employee": {
+      "title": {
+        "dashPageTitle": " Dashboard Overview",
+        "customPageTitle": "Customer Management",
+        "orderPageTitle": "Orders Management",
+        "paymentPageTitle": "Payment Management",
+        "supportPageTitle": "Support Management",
+        "filtersAnalytics": "Filters & Analytics"
+      },
+      "subTitle": {
+        "dashpageSub": "Monitor Your customer Service Performance",
+        "custompageSub": "Manage customer registration and profile setup",
+        "orderpageSub": "Create, reschedule, and manage customer orders",
+        "paymentpageSub": "Handle payments,discounts and billing issues",
+        "supportpageSub": "Create and manage support tickets and escalations"
+      },
+      "table": {
+        "serviceName": "Service/name",
+        "contact": "Contact",
+        "location": "Location",
+        "served": "Served BY",
+        "progress": "Progress",
+        "priority": "Priority",
+        "action": "Action",
+        "tableTitle": "Recent Business Activity",
+        "orderIdName": "Order Id/Name",
+        "assignTo": "Assign To",
+        "serviceDate": "Service Date",
+        "payment": "Payment",
+        "discount": "Discount",
+        "outstanding": "Outstanding",
+        "searchField": "Search here...",
+        "recentCustomer": "Recent Customer",
+        "recentTransaction": " Recent Transaction",
+        "tableIssues": "Issues",
+        "tableDate": "Date",
+        "customerDetails": "Customer Details",
+        "duration": "Duration",
+        "revenue": "Revenue",
+        "customerSupportActivity": "Customer Support Activity",
+        "issues": "Issues",
+        "date": "Date"
+      },
+      "button": {
+        "registerNewCustomer": "Register New Customer",
+        "assistProfile": "Assist in Profile Setup",
+        "reportAnalysis": "Report Analysis",
+        "createServiceRequest": "Create Service Request",
+        "cancel": "Cancel/Modify Order",
+        "reshedule": "Reshedule Order",
+        "collectPayment": "Collect Payment",
+        "discount": "Applied Credits/Discount",
+        "billing": "Resolve Billing Issues",
+        "supportCreateTicket": "Create Support Ticket",
+        "supportEscalate": "Escalate to technical team",
+        "seeDetails": "See Details",
+        "manageTicket": "Manage Ticket",
+        "escalate": "Escalate",
+        "clearDates": "Clear Dates",
+        "from": "From",
+        "to": "To"
+      },
+      "dropdown": {
+        "mappingAndSurveying": "Mapping & Surveying",
+        "low": "Low",
+        "medium": "Medium",
+        "high": "High",
+        "critical": "Critical",
+        "aerialMediaServices": "Aerial Media Services",
+        "realEstate": "Real Estate & Marketing",
+        "agriculture": "Agriculture",
+        "inspectionAndInfrastructure": "Inspection & Infrastructure",
+        "specializedOperations": "Specialized Operations",
+        "supportAndTraining": "Support & Training",
+        "other": "Other",
+        "aerialPhotography": "Aerial Photography & Videography (VID)",
+        "cinematography": "Cinematography (CIN)",
+        "weddingCoverage": "Wedding Coverage (WED)",
+        "editing": "Editing (EDT)",
+        "realEstateMarketing": "Real Estate Marketing Services (REM)",
+        "residentialPhotography": "Residential Photography (RPH)",
+        "landSurveying": "Land Surveying (LND)",
+        "roofInspection": "Roof Inspection (RFI)",
+        "droneMapping": "Drone Mapping & Surveying (MAP)",
+        "generalSurveying": "General Surveying & Mapping (SRV)",
+        "groundCollection": "Ground Collection (GRC)",
+        "dataAnalysis": "Data Analysis (DAT)",
+        "agriculturalServices": "Agricultural Services (AGP)",
+        "agriculturalSpray": "Agricultural Spray (AGS)",
+        "agriculturalSpread": "Agricultural Spread (AGP)",
+        "droneDeliveryServices": "Drone Delivery Services (DLV)",
+        "boatingWaterSports": "Boating & Water Sports (BWS)",
+        "sports": "Sports (SPR)",
+        "droneMaintenance": "Drone Maintenance (DMN)",
+        "droneTraining": "Drone Training (TRN)",
+        "miscellaneous": "Miscellaneous / Custom",
+        "infrastructureInspectionServices": "Infrastructure Inspection Services (INF)",
+        "aerialInspections": "Aerial Inspections (AIN)",
+        "constructionSiteMonitoring": "Construction Site Monitoring (CON)",
+        "generalInfrastructure": "General Infrastructure (IFG)",
+        "aerialMedia": "Aerial Media Services"
+      },
+      "modal": {
+        "collectTitle": "Collect Payment",
+        "customerLabel": "Customer",
+        "customerPlaceholder": "Enter customer name or order ID",
+        "amountLabel": "Amount",
+        "amountPlaceholder": "$00.00",
+        "paymentMethodLabel": "Payment Method",
+        "paymentMethodOption": "Credit card",
+        "notesLabel": "Notes",
+        "notesPlaceholder": "Add payment notes",
+        "processButton": "Process Payment",
+        "applyTitle": "Apply Credits / Discounts",
+        "applyCustomerPlaceholder": "Enter customer name or order ID",
+        "applyDiscountTypeLabel": "Discount Type",
+        "applyDiscountTypeOption1": "Percentage Discount",
+        "applyDiscountTypeOption2": "Amount",
+        "applyAmountLabel": "Amount",
+        "applyAmountPlaceholder": "$00.00",
+        "applyNotesPlaceholder": "Add payment notes",
+        "applyButton": "Apply Discount",
+        "resolveTitle": "Resolve Billing Issues",
+        "resolveCustomerPlaceholder": "Enter customer name or order ID",
+        "resolveIssueTypeLabel": "Issues Type",
+        "resolveIssueTypeOption1": "Incorrect Charge",
+        "resolveIssueTypeOption2": "Payment Failed",
+        "resolveIssueTypeOption3": "Refund Request",
+        "resolveIssueTypeOption4": "Duplicate Charge",
+        "resolveIssueTypeOption5": "Billing Address Issue",
+        "resolveTransactionIdLabel": "Transaction ID",
+        "resolveTransactionIdPlaceholder": "Enter Transaction ID (if applicable)",
+        "resolveNotesPlaceholder": "Add payment notes",
+        "resolveButton": "Resolve Issue",
+        "ticketCustomerLabel": "Customer *",
+        "ticketCustomerPlaceholder": "Enter customer name or phone number",
+        "ticketPriorityLabel": "Priority",
+        "ticketPriorityOption1": "Low",
+        "ticketPriorityOption2": "Medium",
+        "ticketPriorityOption3": "High",
+        "ticketCategoryLabel": "Category",
+        "ticketCategoryOption1": "Technical Issue",
+        "ticketCategoryOption2": "Billing Issue",
+        "ticketCategoryOption3": "Other",
+        "ticketIssueTitleLabel": "Issue Title *",
+        "ticketIssueTitlePlaceholder": "Brief description of the issue",
+        "ticketServiceTypeLabel": "Service Type",
+        "ticketServiceTypeOption1": "Mapping & Surveying",
+        "ticketServiceTypeOption2": "Installation",
+        "ticketServiceTypeOption3": "Maintenance",
+        "ticketIssueDescriptionLabel": "Issue Description *",
+        "ticketIssueDescriptionPlaceholder": "Detailed description of the customer's issue...",
+        "ticketCreateButton": "Create Ticket",
+        "assistInProfileSetup": "Assist in Profile Setup",
+        "customerEmailOrPhone": "Customer email or phone",
+        "enterCustomerEmailOrPhone": "Enter customer email or phone",
+        "setupType": "Setup Type",
+        "customerInformation": "Customer Information",
+        "verificationDetails": "Verification Details",
+        "serviceLocation": "Service Location",
+        "notes": "Notes",
+        "addNotes": "Add any notes about the setup assistance needed...",
+        "startSetupAssistance": "Start Setup Assistance",
+        "firstName": "First Name",
+        "middleName": "Middle Name",
+        "lastName": "Last Name",
+        "alsoKnownAs": "Also Known As",
+        "phone": "Phone",
+        "email": "Email",
+        "geoLocation": "Geo Location",
+        "district": "District",
+        "mandal": "Mandal",
+        "village": "Village",
+        "saveButton": "Save Personal Information",
+        "kycDocuments": "KYC Documents Upload",
+        "kycNumber": "KYC Number",
+        "street": "Street",
+        "city": "City",
+        "state": "State",
+        "postalCode": "Postal Code",
+        "country": "Country",
+        "industry": "Industry",
+        "kycNumberPlaceholder": "Enter KYC Number",
+        "streetPlaceholder": "Enter Street Address",
+        "cityPlaceholder": "Enter City",
+        "statePlaceholder": "Enter State",
+        "postalCodePlaceholder": "Enter Postal Code",
+        "countryPlaceholder": "Enter Country",
+        "industryPlaceholder": "Select Industry",
+        "saveveriButton": "Save Verification Details",
+        "latitude1": "1st Latitude/Longitude",
+        "latitude2": "2nd Latitude/Longitude",
+        "latitude3": "3rd Latitude/Longitude",
+        "latitudePlaceholder": "Latitude and Longitude",
+        "acres": "Number of acres",
+        "acresPlaceholder": "Enter your land area",
+        "savelocaButton": "Confirm Registration",
+        "createTicket": "Create a Ticket",
+        "customer": "Customer",
+        "enterCustomerNameOrPhone": "Enter customer name or phone number",
+        "priority": "Priority",
+        "selectPriority": "Select Priority",
+        "low": "Low",
+        "medium": "Medium",
+        "high": "High",
+        "category": "Category",
+        "other": "Other",
+        "billingProblem": "Billing Problem",
+        "serviceComplaint": "Service Complaint",
+        "accountAccess": "Account Access",
+        "critical": "Critical",
+        "technicalIssue": "Technical Issue",
+        "billingIssue": "Billing Issue",
+        "issueTitle": "Issue Title",
+        "briefDescription": "Brief description of the issue",
+        "serviceType": "Service Type",
+        "selectServiceType": "Select Service Type",
+        "mappingSurveying": "Mapping & Surveying",
+        "installation": "Installation",
+        "maintenance": "Maintenance",
+        "issueDescription": "Issue Description",
+        "escalateTicket": "Escalate Ticket",
+        "ticketId": "Ticket ID",
+        "enterTicketId": "Enter Ticket ID",
+        "escalationLevel": "Escalation Level",
+        "selectEscalationLevel": "Select Escalation Level",
+        "escalationReason": "Escalation To",
+        "selectEscalationReason": "Select Escalation Reason",
+        "customerUnhappy": "Customer Unhappy",
+        "delayedResponse": "Delayed Response",
+        "technicalEscalation": "Technical Escalation",
+        "stepsAlreadyTaken": "Steps Already Taken",
+        "detailedDescription": "Detailed Description",
+        "assignTo": "Assign To",
+        "enterNameOrTeam": "Enter the name or team to assign",
+        "additionalComments": "Additional Comments",
+        "addAdditionalDetails": "Add any additional details...",
+        "escalateTicketBtn": "Escalate Ticket",
+        "technicalComplexity": "Technical Complexity",
+        "systemAppIssue": "System/App Issue",
+        "securityConcern": "Security Concern",
+        "ticketID": "Ticket ID",
+        "enterTicketID": "Enter Ticket ID",
+        "updateStatus": "Update status",
+        "inProgress": "In Progress",
+        "waitingForCustomer": "Waiting for customer",
+        "resolved": "Resolved",
+        "closed": "Closed",
+        "internalNotes": "Internal Notes",
+        "enterInternalNotes": "Enter internal notes...",
+        "customerResponse": "Customer Response",
+        "updateTicket": "Update ticket",
+        "manageTicket": "Manage a Ticket",
+        "creditCard": "Credit Card",
+        "debitCard": "Debit Card",
+        "bank": "Bank",
+        "rupay": "Rupay",
+        "percentageDiscount": "Percentage Discount",
+        "referralBonus": "Referral Bonus",
+        "loyaltyBonus": "Loyalty Bonus",
+        "campaignDiscount": "Campaign Discount",
+        "incorrectCharge": "Incorrect Charge"
+      },
+      "pages": {
+        "orderDetails": {
+          "serviceOrderID": "Service Order ID",
+          "customerOrderID": "Customer Order ID",
+          "basicSpecificsInfo": "Basic Specifics Info",
+          "customerID": "Customer ID",
+          "subServiceID": "Sub-Service ID",
+          "droneOperatorID": "Drone Operator ID",
+          "droneID": "Drone ID",
+          "scheduling": "Scheduling",
+          "serviceLocation": "Service Location",
+          "serviceStart": "Service Start",
+          "serviceEnd": "Service End",
+          "reschedulingInfo": "Rescheduling Info",
+          "rescheduledBy": "Rescheduled By",
+          "rescheduledDate": "Rescheduled Date",
+          "rescheduleCount": "Reschedule Count",
+          "serviceMetrics": "Service Metrics",
+          "serviceArea": "Service Area (in Acres)",
+          "flightHours": "Flight Hours",
+          "unitCost": "Unit Cost",
+          "additionalCosts": "Additional Costs",
+          "discountAmount": "Discount Amount",
+          "serviceOrderCost": "Service Order Cost",
+          "paymentStatus": "Service Order Payment Status",
+          "notesConfirmation": "Notes & Confirmation",
+          "specialInstructions": "Special Instructions",
+          "acknowledgmentStatus": "Acknowledgment Status",
+          "totalOrder": "Total Order",
+          "complete": "Complete",
+          "kycDocument": "KYC Document",
+          "images": "Images",
+          "videos": "Videos",
+          "customerFeedback": "Customer Feedback",
+          "rateYourDroneOperator": "Rate Your Drone Operator",
+          "tips": "Tips",
+          "review": "Review",
+          "orderDetails": "Order Details"
+        },
+        "dashboard": {
+          "dropDown": {
+            "last7days": "Last 7 days",
+            "last30days": "Last 30 days",
+            "last60days": "Last 60 days",
+            "last90days": "Last 90 days",
+            "last6months": "Last 6 months",
+            "last12months": "Last 12 months",
+            "overview": "overview",
+            "customerType": "Customer Type",
+            "all": "All",
+            "aerialMediaServices": "Aerial Media Services",
+            "groundMediaServices": "Ground Media Services",
+            "serviceCategory": "Service Category",
+            "allServiceCategories": "All Service Categories",
+            "aerialPhotographyVideographyMP": "Aerial Photography & Videography (MP)",
+            "eventPhotography": "Event Photography"
+          },
+          "card": {
+            "1st": "Total Customers",
+            "2nd": "Active Orders",
+            "3rd": "Pending Payments",
+            "4th": "Open Tickets",
+            "5th": "Completed Orders",
+            "6th": "Canceled Orders",
+            "totalCustomers": "Total Customers",
+            "totalRevenue": "Total Revenue",
+            "avgDuration": "Avg Duration",
+            "pendingPayments": "Pending Payments",
+            "totalOrders": "Total Orders",
+            "openTickets": "Open Tickets",
+            "inProgress": "In Progress",
+            "escalated": "Escalated",
+            "resolvedToday": "Resolved Today"
+          }
+        },
+        "order": {
+          "modal": {
+            "createServiceRequest": "Create Service Request",
+            "customer": "Customer",
+            "enterCustomerNameOrPhone": "Enter customer name or phone number",
+            "serviceType": "Service Type*",
+            "mappingSurveying": "Mapping & Surveying",
+            "preferredDate": "Preferred Date",
+            "dateFormat": "mm/dd/yyyy",
+            "preferredTime": "Preferred Time",
+            "timeFormat": "HH:MM AM - 12:00 PM",
+            "specialInstruction": "Special Instruction",
+            "createRequest": " Create Request"
+          },
+          "rescheduleServiceOrder": {
+            "title": "Reschedule Service Order",
+            "orderId": "Order ID",
+            "customerName": "Enter customer name or phone number",
+            "serviceType": "Service Type*",
+            "mappingSurveying": "Mapping & Surveying",
+            "preferredDate": "Preferred Date",
+            "dateFormat": "mm/dd/yyyy",
+            "preferredTime": "Preferred Time",
+            "timeFormat": "HH:MM AM - 12:00 PM",
+            "specialInstruction": "Any special instructions or requirements...",
+            "createRequest": "Reshedule Order"
+          },
+
+          "cancelServiceOrder": {
+            "title": "Cancel Service Order",
+            "orderId": "Order ID",
+            "customerName": "Enter customer name or phone number",
+            "action": "Action*",
+            "mappingSurveying": "Mapping & Surveying",
+            "reason": "Reason",
+            "specialInstruction": "Any special instructions or requirements...",
+            "cancel": "Cancel"
+          }
+        },
+        "payment": {
+          "card": {
+            "refundProcessed": "Refund Processed",
+            "pendingPayments": "Pending Payments",
+            "todaysCollections": "Today's Collections"
+          }
+        }
+      }
+    },
+    "fieldAgent": {
+      "fieldAgentSummery": {
+        "userAdded": "Total user added by you",
+        "ActiveCustomers": "Active Customers",
+        "totalcommition": "Total commission earned",
+        "totalPayments": "Ourstanding payments"
+      },
+      "userAdd": {
+        "AddedByYou": "Added by you",
+        "AddCustomer": "Add Customer",
+        "CustomerOnBoarded": "Customer Onboarded"
+      },
+      "tableHeader": {
+        "CustomerList": "Customer List",
+        "Role": "Role",
+        "Filter": "Filter",
+        "Search": "Search",
+        "RegistrationCommission": "Registration Commission",
+        "FirstOrderCommission": "First Order Commission",
+        "EffectiveDate": "Effective Date",
+        "RegistrationDate": "Registration Date",
+        "CustomerType": "Customer Type",
+        "NextFollowUpDate": "Next Follow-up Date",
+        "ServiceInterest": "Service Interest",
+        "QuickActions": "Quick Actions"
+      },
+      "pagination": {
+        "showing": "Showing",
+        "users": "Users",
+        "previous": "Previous",
+        "next": "Next",
+        "of": "of"
+      },
+      "createServiceModal": {
+        "CreateService": "Create Service",
+        "ServiceTitle": "Service Title",
+        "AquaDomoService": "Aqua Domo Service",
+        "ServicePrice": "Service Price",
+        "PriceValue": "$130 / Acre",
+        "Industry": "Industry",
+        "IndustryValue": "Mapping & Surveying",
+        "Agriculture": "Agriculture",
+        "Construction": "Construction",
+        "Environmental": "Environmental",
+        "SubCategory": "Sub category",
+        "SubCategoryValue": "Domo Mapping & Surveying (MMD1)",
+        "ServiceDetails": "Service Details",
+        "DescribeYourService": "Describe your Service",
+        "ServiceLocation": "Service location",
+        "ServiceLocationValue": "Domo Mapping & Surveying (MMD1)"
+      },
+      "FirstModal": {
+        "addCustomer": "Add Customer",
+        "customerInfo": "Customer Info",
+        "firstName": "First name",
+        "middleName": "Middle name",
+        "lastName": "Last name",
+        "alsoKnownAs": "Also Known As",
+        "nickname": "Nickname",
+        "phone": "Phone",
+        "email": "Email",
+        "geoLocation": "Geo location",
+        "selectOnMap": "Select on map",
+        "district": "District",
+        "enterDistrict": "Enter your District name",
+        "mandal": "Mandal",
+        "enterMandal": "Enter your Mandal name",
+        "village": "Village",
+        "enterVillage": "Enter your Village name",
+        "registeredBy": "Registered By",
+        "selectAgent": "Select Agent",
+        "FieldAgent": "Field Agent",
+        "next": "Next",
+        "confirmRegistration": "Confirm Registration"
+      },
+      "SecondModal": {
+        "addressDetails": "Address Details",
+        "kycDocumentsUpload": "KYC Documents Upload",
+        "street": "Street",
+        "streetAddress": "Street address",
+        "city": "City",
+        "enterCity": "City",
+        "state": "State",
+        "enterState": "State",
+        "postalCode": "Postal Code",
+        "enterPostalCode": "400020",
+        "country": "Country",
+        "enterCountry": "India",
+        "industry": "Industry",
+        "selectIndustry": "Select industry",
+        "agriculture": "Agriculture"
+      },
+      "ThirdModal": {
+        "serviceLocations": "Service Locations",
+        "firstLatLong": "1st Latitude/Longitude",
+        "firstLatLongValue": "Lat, Long",
+        "secondLatLong": "2nd Latitude/Longitude",
+        "thirdLatLong": "3rd Latitude/Longitude",
+        "numberOfAcres": "Number of acres",
+        "landAreaInAcres": "Land area in acres",
+        "locationLabel": "Location {{index}}",
+        "locationName": "Location Name",
+        "locationNamePlaceholder": "e.g., North GeoCoordinates",
+        "latitude": "Latitude",
+        "latitudePlaceholder": "17.4529",
+        "longitude": "Longitude",
+        "longitudePlaceholder": "78.3982",
+        "landSize": "Land Size",
+        "landSizePlaceholder": "25 Acres",
+        "unit": "Unit",
+        "accessInstructions": "Access Instructions",
+        "accessInstructionsPlaceholder": "Use north gate, contact site manager.",
+        "addLocation": "Add Location",
+        "removeLocation": "Remove Location"
+      }
+    },
+    "marketing": {
+      "title": "Marketing Dashboard",
+      "monitor": "Monitor your customer service performance",
+      "Last30daysOverview": "Last 30 days overview",
+      "Last90daysOverview": "Last 90 days overview",
+      "Last7daysOverview": "Last 7 days overview",
+      "last_90_days": "last 90 days",
+      "last_30_days": "last 30 days",
+      "last_7_days": "last 7 days",
+      "clickRate": "Click through rate",
+      "ConversionRate": "Conversion Rate",
+      "CustomerAcquisitionCost": "Customer Acquisition Cost",
+      "RIO": "RIO",
+      "LeadManagement": "Lead Management",
+      "TrackAndNurtureYourMarketingLeads": "Track and nurture your marketing leads",
+      "ExportLeads": "Export Leads",
+      "Automation": "Automation",
+      "AllLeads": "All Leads",
+      "Hot": "Hot",
+      "Warm": "Warm",
+      "Cool": "Cool",
+      "Lead": "Lead",
+      "Contact": "Contact",
+      "Source": "Source",
+      "Location": "Location",
+      "Score": "Score",
+      "Status": "Status",
+      "Action": "Action",
+      "Results": "Results",
+      "Showing": "Showing",
+      "Previous": "Previous",
+      "Next": "Next",
+      "seasonalCampaings": "Seasonal campaigns",
+      "CreateCampaign": "Create Campaign",
+      "SeeDetails": "See Details",
+      "Loyaltyprograms": "Loyalty programs",
+      "Confirm": "Confirm",
+      "LaunchCampaign": "Launch Campaign",
+      "CampaignOverview": {
+        "SeasonalCampaignOverview": "Seasonal Campaign Overview",
+        "LoyaltyCampaignOverview": "Loyalty Campaign Overview",
+        "CampaignName": "Campaign Name",
+        "CampaignTypes": "Campaign Types",
+        "LeadsGenerated": "Leads Generated",
+        "ROI": "ROI",
+        "Actions": "ACTIONS"
+      },
+      "CampaignDetails": {
+        "CampaignOverview": "Campaign Overview",
+        "Back": "Back",
+        "Export": "Export",
+        "Delete": "Delete",
+        "CampaignName": "Campaign Name",
+        "Objective": "Objective",
+        "Duration": "Duration",
+        "CampaignType": "Campaign Type",
+        "CampaignStory": "Campaign Story",
+        "ChannelPerformance": "Channel Performance",
+        "Impressions": "Impressions",
+        "Clicks": "Clicks",
+        "LeadGeneration": "Lead Genetation",
+        "ConversionsRate": "Conversions Rate",
+        "RIO": "RIO"
+      },
+      "AutomationModal": {
+        "Enabled": "Enabled",
+        "ThreeOfFourRulesActive": "3 of 4 rules active",
+        "IfLeadIsHot": "if lead is hot",
+        "Disabled": "Disabled",
+        "AutomationSettings": "Automation Settings"
+      },
+      "CampaignModal": {
+        "step_1": {
+          "CreateNewCampaign": "Create New Campaign",
+          "Step": "Step",
+          "Progress25Percent": "25%",
+          "SetCampaignType": "Set Campaign Type",
+          "BrandAwareness": "Brand Awareness",
+          "BrandAwarenessDescription": "Spread brand visibility and recognition",
+          "CustomerAcquisition": "Customer Acquisition",
+          "CustomerAcquisitionDescription": "Attract new customers and leads",
+          "Retargeting": "Retargeting",
+          "RetargetingDescription": "Re-engage existing visitors and customers",
+          "ReferralProgram": "Referral Program",
+          "ReferralProgramDescription": "Increase existing customers for growth",
+          "DefineTargetSegment": "Define Target Segment",
+          "Operator": "Operator",
+          "Customers": "Customers",
+          "SelectTargetSegment": "Select target segment"
+        },
+        "step_2": {
+          "SetCampaignGoals": "Set Campaign Goals",
+          "Signups": "Signups",
+          "Bookings": "Bookings",
+          "Downloads": "Downloads",
+          "Engagement": "Engagement",
+          "CampaignBudget": "Campaign Budget",
+          "EnterBudgetAmount": "Enter budget amount"
+        },
+        "step_3": {
+          "CampaignTitle": "Campaign Title",
+          "EnterCampaignTitle": "Enter campaign title",
+          "Description": "Description",
+          "EnterCampaignDetails": "Enter campaign details",
+          "TargetedAudience": "Targeted Audience",
+          "SelectTargetSegment": "Select target segment",
+          "UploadCampaignImages": "Upload campaign images"
+        },
+        "step_4": {
+          "ChooseMarketingChannels": "Choose Marketing Channels",
+          "Email": "Email",
+          "SMS": "SMS",
+          "PushNotification": "Push Notification",
+          "SocialMedia": "Social Media"
+        }
+      }
+    }
+  },
+  "sidebar": {
+    "prasadDashboard": "Prasad Dashboard",
+    "admin": {
+      "droneOperator": "Drone operator",
+      "userManagement": "User management",
+      "employeeManagement": "Employee management",
+      "fieldAgent": "Field agent",
+      "jobs": "Jobs",
+      "paymentsManagement": "Payments management",
+      "reports": "Reports",
+      "complaints": "Complaints",
+      "services": "Services"
+    },
+    "employee": {
+      "dashboard": "Dashboard",
+      "customer": "Customer",
+      "orders": "Orders",
+      "payments": "Payments",
+      "support": "Support"
+    },
+    "fieldAgent": {
+      "myAssignments": "My Assignments",
+      "locationTracking": "Location Tracking",
+      "routeOptimization": "Route Optimization",
+      "vehicleManagement": "Vehicle Management",
+      "photoCapture": "Photo Capture",
+      "reports": "Reports"
+    },
+    "marketing": {
+      "campaigns": "Campaigns",
+      "leadManagement": "Lead Management",
+      "analytics": "Analytics"
+    }
+  },
+  "stats": {
+    "totalUsers": "Total Users",
+    "activeSessions": "Active Sessions",
+    "totalRevenue": "Total Revenue",
+    "openComplaints": "Open Complaints"
+  },
+  "home": {
+    "title": "Welcome to Prasad Dashboard",
+    "subtitle": "A comprehensive role-based dashboard application for managing your organization with modern design and powerful features.",
+    "roleBasedAccess": "Role-Based Access Control",
+    "roleBasedDescription": "Different dashboard experiences tailored for each role in your organization",
+    "features": {
+      "roleBasedAccess": "Role-Based Access",
+      "roleBasedDescription": "Different dashboards for different roles",
+      "modernDesign": "Modern Design",
+      "modernDescription": "Clean and intuitive user interface",
+      "secure": "Secure",
+      "secureDescription": "Firebase authentication and security",
+      "responsive": "Responsive",
+      "responsiveDescription": "Works perfectly on all devices"
+    }
+  },
+  "roles": {
+    "admin": "Admin",
+    "adminDescription": "Full system control and user management",
+    "marketing": "Marketing",
+    "marketingDescription": "Campaign analytics and customer insights",
+    "employee": "Employee",
+    "employeeDescription": "Task management and personal workspace",
+    "fieldAgent": "Field Agent",
+    "fieldAgentDescription": "Location tracking and field reporting"
+  },
+  "languages": {
+    "english": "English",
+    "hindi": "हिंदी"
+  },
+  "fieldAgent": {
+    "fieldAgent": "Field Agent",
+    "dashboard": "Dashboard",
+    "assignments": "Assignments",
+    "location": "Location",
+    "photos": "Photos",
+    "reports": "Reports",
+    "settings": "Settings",
+    "welcome": "Welcome back, Field Agent",
+    "todayAssignments": "Today's Assignments",
+    "completedTasks": "Completed Tasks",
+    "pendingTasks": "Pending Tasks",
+    "myAssignments": "My Assignments",
+    "visitClient": "Visit Client A",
+    "clientAddress": "123 Business Street, Mumbai",
+    "surveyArea": "Survey Area B",
+    "surveyLocation": "Sector 15, Noida",
+    "pending": "Pending",
+    "completed": "Completed",
+    "locationTracking": "Location Tracking",
+    "currentLocation": "Current Location:",
+    "mapPlaceholder": "[Map will be displayed here]",
+    "photoGallery": "Photo Gallery",
+    "fieldReports": "Field Reports",
+    "reportDate": "Date",
+    "reportType": "Type",
+    "status": "Status",
+    "siteVisit": "Site Visit",
+    "submitted": "Submitted",
+    "notificationSettings": "Notification Settings",
+    "emailNotifications": "Email Notifications",
+    "pushNotifications": "Push Notifications"
+  },
+  "marketing": {
+    "marketing": "Marketing",
+    "dashboard": "Dashboard",
+    "campaigns": "Campaigns",
+    "analytics": "Analytics",
+    "leads": "Leads",
+    "email": "Email",
+    "settings": "Settings",
+    "welcome": "Welcome back, Marketing Team",
+    "activeCampaigns": "Active Campaigns",
+    "totalLeads": "Total Leads",
+    "conversionRate": "Conversion Rate",
+    "revenue": "Revenue",
+    "recentCampaigns": "Recent Campaigns",
+    "summerSale": "Summer Sale 2024",
+    "newProduct": "New Product Launch",
+    "active": "Active",
+    "scheduled": "Scheduled",
+    "topPerforming": "Top Performing Channels",
+    "emailMarketing": "Email Marketing",
+    "socialMedia": "Social Media",
+    "campaignManagement": "Campaign Management",
+    "createCampaign": "Create Campaign",
+    "campaignName": "Campaign Name",
+    "type": "Type",
+    "performance": "Performance",
+    "social": "Social",
+    "marketingAnalytics": "Marketing Analytics",
+    "trafficSources": "Traffic Sources",
+    "conversionFunnel": "Conversion Funnel",
+    "chartPlaceholder": "[Chart will be displayed here]",
+    "leadManagement": "Lead Management",
+    "allLeads": "All Leads",
+    "newLeads": "New Leads",
+    "qualified": "Qualified",
+    "leadName": "Lead Name",
+    "source": "Source",
+    "score": "Score",
+    "website": "Website",
+    "contacted": "Contacted",
+    "createEmail": "Create Email",
+    "sentEmails": "Sent Emails",
+    "openRate": "Open Rate",
+    "clickRate": "Click Rate",
+    "defaultCampaignSettings": "Default Campaign Settings",
+    "autoOptimize": "Auto-optimize campaigns",
+    "trackConversions": "Track conversions"
+  },
+  "common": {
+    "logout": "Logout",
+    "pageNotFound": "Page not found"
+  },
+  "hero": {
+    "tagline": "Professional Drone Services Across India",
+    "title": "Elevate Your Business with Advanced",
+    "highlight": "Drone Solutions",
+    "description": "From precision agriculture to infrastructure inspection, we deliver cutting-edge aerial solutions for enterprises, government, and specialized industries.",
+    "cta": "Book a Service"
+  },
+  "landingstats": {
+    "satisfiedClients": "Satisfied Clients",
+    "projectsCompleted": "Projects Completed",
+    "industryCertifications": "Industry Certifications",
+    "clientSatisfaction": "Client Satisfaction"
+  },
+  "industries": {
+    "header": "Industries We Serve",
+    "subheader": "Specialized drone solutions tailored to your industry needs",
+    "learnMore": "Learn more",
+    "viewAllServices": "View All Services",
+    "agriculture": {
+      "title": "Agriculture & Farming",
+      "description": "Advanced aerial solutions for agriculture & farming"
+    },
+    "construction": {
+      "title": "Construction",
+      "description": "Advanced aerial solutions for construction"
+    },
+    "energy": {
+      "title": "Energy & Utilities",
+      "description": "Advanced aerial solutions for energy & utilities"
+    },
+    "publicSafety": {
+      "title": "Public Safety & Government",
+      "description": "Advanced aerial solutions for public safety & government"
+    }
+  },
+  "blogs": {
+    "header": "Blog & Research",
+    "subheader": "Explore industry insights, learn from real success stories, and gain in-depth knowledge through our expert whitepapers.",
+    "learnMore": "Learn more",
+    "viewAll": "View All Blog & Research",
+    "agriculture": {
+      "category": "Industry Insights",
+      "title": "The Future of Precision Agriculture in India",
+      "description": "How drone technology is revolutionizing farming practices and increasing yields by up to 30%."
+    },
+    "construction": {
+      "category": "Success Stories",
+      "title": "5 Drone Innovations in Construction",
+      "description": "Real-world examples of how leading construction firms are using drones to save time and money."
+    }
+  },
+  "faq": {
+    "header": "Frequently Asked Questions",
+    "q1": "What areas do you serve?",
+    "a1": "We provide drone services across all 28 states and 8 union territories of India. Our team can deploy within 24-48 hours for most locations.",
+    "q2": "Are your pilots certified?",
+    "a2": "Yes, all our pilots are certified by DGCA (Directorate General of Civil Aviation) and have extensive training and experience in commercial drone operations.",
+    "q3": "How do I book a drone service?",
+    "a3": "You can book our services through our website, mobile app, or by calling our customer service team. We'll discuss your requirements and provide a customized quote.",
+    "q4": "What is the typical turnaround time for data delivery?",
+    "a4": "Standard turnaround time is 3-5 business days for processed data. Rush delivery options are available for urgent projects with delivery in 24-48 hours.",
+    "q5": "How long does pilot training take?",
+    "a5": "Our comprehensive pilot training program takes 4-6 weeks, including both theoretical knowledge and practical flying sessions, culminating in DGCA certification.",
+    "q6": "Can you integrate with our existing systems?",
+    "a6": "Yes, we offer API integration and can work with most enterprise systems. Our technical team will coordinate with your IT department for seamless integration.",
+    "q7": "What data formats do you deliver?",
+    "a7": "We deliver data in multiple formats including GeoTIFF, JPG, PNG, PDF reports, CAD files, and 3D models. Custom formats can be provided based on your requirements.",
+    "q8": "Do you offer subscription packages?",
+    "a8": "Yes, we offer flexible subscription packages for regular monitoring and inspection services. Contact us to discuss a custom package that fits your needs."
+  },
+
+  "about": {
+    "header": "About Hindustan Drone Services",
+    "description": "India's premier drone service provider, delivering excellence in aerial solutions since 2018. Trusted by government agencies, Fortune 500 companies, and enterprises across the nation."
+  },
+  "mission": {
+    "header": "Our Mission",
+    "description": "To revolutionize industries through accessible, safe, and innovative drone technology. We bridge the gap between cutting-edge aerial capabilities and real-world business needs, delivering measurable value to our clients. Our vision is to become the most trusted drone services partner across India, setting industry standards for quality, safety, and customer satisfaction.",
+    "coreValuesHeader": "Our Core Values",
+    "safetyFirst": {
+      "title": "Safety First",
+      "description": "Uncompromising standards in operations and compliance"
+    },
+    "innovation": {
+      "title": "Innovation",
+      "description": "Cutting-edge technology and continuous improvement"
+    },
+    "customerFocus": {
+      "title": "Customer Focus",
+      "description": "Tailored solutions for every client need"
+    }
+  },
+  "team": {
+    "header": "Leadership Team",
+    "subheader": "Backed by expertise, driven by innovation. Our team is committed to setting the standard for drone services excellence across the nation.",
+    "arun": {
+      "name": "Arun Reddy",
+      "role": "Director - Client Relations",
+      "description": "10+ years logistics management"
+    },
+    "priya": {
+      "name": "Priya Sharma",
+      "role": "COO - Pilot Operations",
+      "description": "Ex-IAF, 3000+ flight hours"
+    },
+    "meena": {
+      "name": "Meena Patel",
+      "role": "VP of Technology",
+      "description": "IIT Bombay, Aerospace Engineering"
+    },
+    "rajeev": {
+      "name": "Rajeev Kumar",
+      "role": "CEO and Founder",
+      "description": "15+ years in Aviation"
+    }
+  },
+  "services": {
+    "header": "Comprehensive Drone Services",
+    "subheader": "Professional aerial solutions tailored to your industry. Powered by cutting-edge technology and operated by certified experts.",
+    "bookService": "Book a Service",
+    "learnMore": "Learn more",
+    "agriculture": {
+      "title": "Agriculture & Farming",
+      "description": "Advanced aerial solutions for agriculture & farming",
+      "features": {
+        "cropMonitoring": "Crop Health Monitoring",
+        "precisionSpraying": "Precision Spraying",
+        "irrigationMapping": "Irrigation Mapping",
+        "yieldPrediction": "Yield Prediction"
+      }
+    },
+    "construction": {
+      "title": "Construction & Infrastructure",
+      "description": "Advanced aerial solutions for construction",
+      "features": {
+        "siteMapping": "3D Site Mapping",
+        "progressTracking": "Progress Tracking",
+        "volumetricCalc": "Volumetric Calculations",
+        "safetyAudits": "Safety Audits"
+      }
+    },
+    "energy": {
+      "title": "Energy & Utilities",
+      "description": "Power line inspection, solar panel assessment, wind turbine monitoring.",
+      "features": {
+        "thermalImaging": "Thermal Imaging",
+        "assetInspection": "Asset Inspection",
+        "vegetationMgmt": "Vegetation Management",
+        "faultDetection": "Fault Detection"
+      }
+    },
+    "publicSafety": {
+      "title": "Public Safety & Government",
+      "description": "Emergency response, disaster management, surveillance, and crowd monitoring.",
+      "features": {
+        "emergency": "Emergency Response",
+        "disaster": "Disaster Assessment",
+        "surveillance": "Border Surveillance",
+        "trafficMonitoring": "Traffic Monitoring"
+      }
+    }
+  },
+  "contact": {
+    "header": "Contact Us",
+    "subheader": "Ready to transform your operations with drone technology? Get in touch with our team today."
+  },
+  "contact2": {
+    "form": {
+      "header": "Contact Us",
+      "firstName": "First Name",
+      "firstNamePlaceholder": "John",
+      "lastName": "Last Name",
+      "lastNamePlaceholder": "Smith",
+      "phone": "Phone Number",
+      "phonePlaceholder": "+91 98165 43210",
+      "email": "Email",
+      "emailPlaceholder": "example@gmail.com",
+      "subject": "Subject",
+      "subjectPlaceholder": "What do you want",
+      "message": "Message",
+      "messagePlaceholder": "Write your message here",
+      "submit": "Send Message"
+    }
+  },
+  "footer": {
+    "cta": {
+      "title": "Let's book a drone!",
+      "description": "Get cutting-edge drone services tailored for your needs — from agriculture and construction to energy, safety, and more. Our certified pilots and advanced technology ensure accuracy, efficiency, and safety every time. Book today and experience the future of aerial solutions.",
+      "button": "Book a Service"
+    },
+    "brand": {
+      "name": "Demo Logo",
+      "description": "Professional drone services for agriculture, construction, energy, and more. Trusted by enterprises across India."
+    },
+    "service": {
+      "title": "Service",
+      "items": [
+        "Agriculture & Farming",
+        "Construction",
+        "Energy & Utilities",
+        "Public Safety"
+      ]
+    },
+    "company": {
+      "title": "Company",
+      "items": ["About Us", "Privacy Policy"]
+    },
+    "contact": {
+      "title": "Contact",
+      "address": "Hyderabad, Telangana, India",
+      "phone": "+91 1800 123 4567",
+      "email": "info@hindustandardrone.com"
+    },
+    "copyright": "Hindustan Drone Services. All rights reserved."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "blog": "Blog & Research",
+    "contact": "Contact",
+    "download": "Download App",
+    "login": "Login"
+  },
+  "blog": {
+    "title": "Blog & Research",
+    "subtitle": "Industry insights, success stories, and research from India's leading drone service provider.",
+    "description": "Explore industry insights, learn from real success stories, and gain in-depth knowledge through our expert whitepapers."
+  },
+  "reports": {
+    "title": "Reports",
+    "subtitle": "Configure and manage payment methods for customers and drone operators",
+    "last7DaysRevenue": "Last 7 days revenue",
+    "monthlyRevenue": "Monthly revenue"
+  },
+  "complaints": {
+    "title": "Complaints",
+    "subtitle": "View which customers have submitted complaints.",
+    "table": {
+      "customer": "Customer",
+      "complainTitle": "Complain title",
+      "ticketId": "Complaints ID/Ticket ID",
+      "rating": "Complain title",
+      "actions": "Actions",
+      "seeDetails": "See details"
+    },
+    "pagination": {
+      "showing": "Showing {{count}} of {{total}} Customer",
+      "previous": "Previous",
+      "next": "Next"
+    }
+  },
+  "categories": {
+    "mappingAndSurveying": {
+      "label": "Mapping & Surveying",
+      "sub": {
+        "droneMapping": "Drone Mapping & Surveying (MAP)",
+        "generalSurveying": "General Surveying & Mapping (SRV)",
+        "groundCollection": "Ground Collection (GRC)",
+        "dataAnalysis": "Data Analysis (DAT)"
+      }
+    },
+    "aerialMediaServices": {
+      "label": "Aerial Media Services",
+      "sub": {
+        "aerialPhotography": "Aerial Photography & Videography (VID)",
+        "cinematography": "Cinematography (CIN)",
+        "weddingCoverage": "Wedding Coverage (WED)",
+        "editing": "Editing (EDT)"
+      }
+    },
+    "realEstateMarketing": {
+      "label": "Real Estate & Marketing",
+      "sub": {
+        "realEstateMarketingServices": "Real Estate Marketing Services (REM)",
+        "residentialPhotography": "Residential Photography (RPH)",
+        "landSurveying": "Land Surveying (LND)",
+        "roofInspection": "Roof Inspection (RFI)"
+      }
+    },
+    "agriculture": {
+      "label": "Agriculture",
+      "sub": {
+        "agriculturalServices": "Agricultural Services (AGP)",
+        "agriculturalSpray": "Agricultural Spray (AGS)",
+        "agriculturalSpread": "Agricultural Spread (AGP)"
+      }
+    },
+    "inspectionInfrastructure": {
+      "label": "Inspection & Infrastructure",
+      "sub": {
+        "infrastructureInspectionServices": "Infrastructure Inspection Services (INF)",
+        "aerialInspections": "Aerial Inspections (AIN)",
+        "constructionSiteMonitoring": "Construction Site Monitoring (CON)",
+        "generalInfrastructure": "General Infrastructure (IFG)"
+      }
+    },
+    "specializedOperations": {
+      "label": "Specialized Operations",
+      "sub": {
+        "droneDeliveryServices": "Drone Delivery Services (DLV)",
+        "boatingWaterSports": "Boating & Water Sports (BWS)",
+        "sports": "Sports (SPR)"
+      }
+    },
+    "supportTraining": {
+      "label": "Support & Training",
+      "sub": {
+        "droneMaintenance": "Drone Maintenance (DMN)",
+        "droneTraining": "Drone Training (TRN)"
+      }
+    },
+    "other": {
+      "label": "Other",
+      "sub": {
+        "miscellaneous": "Miscellaneous / Custom"
+      }
+    }
+  }
+}

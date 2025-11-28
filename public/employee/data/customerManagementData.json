@@ -1,0 +1,258 @@
+{
+  "filters": {
+    "customerTypes": ["Aerial Media Services", "Ground Media Services"],
+    "serviceCategories": [
+      "Aerial Photography & Videography (MP)",
+      "Event Photography"
+    ]
+  },
+  "summary": {
+    "totalCustomers": 2847,
+    "totalRevenue": 438,
+    "avgDuration": 67,
+    "pendingPayments": 23
+  },
+ "customers": [
+  {
+    "id": 1,
+    "serviceName": "Albert Flores",
+    "company": "Agritech Solutions",
+    "contact": "john@agritech.com",
+    "phone": "(225) 555-0118",
+    "date": "12/08/2025 - 16/08/2025",
+    "duration": "1h 30min",
+    "revenue": 700,
+    "customerType": "Aerial Media Services",
+    "serviceCategory": "Aerial Photography & Videography (MP)"
+  },
+  {
+    "id": 2,
+    "serviceName": "Jenny Wilson",
+    "company": "Agritech Solutions",
+    "contact": "john@agritech.com",
+    "phone": "(225) 555-0118",
+    "date": "12/08/2025 - 16/08/2025",
+    "duration": "1h 30min",
+    "revenue": 900,
+    "customerType": "Ground Media Services",
+    "serviceCategory": "Event Photography"
+  },
+  {
+    "id": 3,
+    "serviceName": "Kristin Watson",
+    "company": "Agritech Solutions",
+    "contact": "john@agritech.com",
+    "phone": "(225) 555-0118",
+    "date": "12/08/2025 - 16/08/2025",
+    "duration": "1h 30min",
+    "revenue": 400,
+    "customerType": "Aerial Media Services",
+    "serviceCategory": "Event Photography"
+  },
+  {
+    "id": 4,
+    "serviceName": "Brooklyn Simmons",
+    "company": "Agritech Solutions",
+    "contact": "john@agritech.com",
+    "phone": "(225) 555-0118",
+    "date": "12/08/2025 - 16/08/2025",
+    "duration": "1h 30min",
+    "revenue": 300,
+    "customerType": "Ground Media Services",
+    "serviceCategory": "Aerial Photography & Videography (MP)"
+  },
+  {
+    "id": 5,
+    "serviceName": "Floyd Miles",
+    "company": "Agritech Solutions",
+    "contact": "john@agritech.com",
+    "phone": "(225) 555-0118",
+    "date": "13/08/2025 - 17/08/2025",
+    "duration": "1h 45min",
+    "revenue": 450,
+    "customerType": "Aerial Media Services",
+    "serviceCategory": "Aerial Photography & Videography (MP)"
+  },
+  {
+    "id": 6,
+    "serviceName": "Dianne Russell",
+    "company": "Agritech Solutions",
+    "contact": "john@agritech.com",
+    "phone": "(225) 555-0118",
+    "date": "13/08/2025 - 18/08/2025",
+    "duration": "2h 00min",
+    "revenue": 600,
+    "customerType": "Ground Media Services",
+    "serviceCategory": "Event Photography"
+  },
+  {
+    "id": 7,
+    "serviceName": "Ronald Richards",
+    "company": "Agritech Solutions",
+    "contact": "john@agritech.com",
+    "phone": "(225) 555-0118",
+    "date": "14/08/2025 - 19/08/2025",
+    "duration": "1h 30min",
+    "revenue": 550,
+    "customerType": "Aerial Media Services",
+    "serviceCategory": "Event Photography"
+  },
+  {
+    "id": 8,
+    "serviceName": "Cameron Williamson",
+    "company": "Agritech Solutions",
+    "contact": "john@agritech.com",
+    "phone": "(225) 555-0118",
+    "date": "15/08/2025 - 20/08/2025",
+    "duration": "1h 30min",
+    "revenue": 500,
+    "customerType": "Ground Media Services",
+    "serviceCategory": "Aerial Photography & Videography (MP)"
+  },
+  {
+    "id": 9,
+    "serviceName": "Courtney Henry",
+    "company": "Agritech Solutions",
+    "contact": "john@agritech.com",
+    "phone": "(225) 555-0118",
+    "date": "16/08/2025 - 21/08/2025",
+    "duration": "1h 20min",
+    "revenue": 650,
+    "customerType": "Aerial Media Services",
+    "serviceCategory": "Aerial Photography & Videography (MP)"
+  },
+  {
+    "id": 10,
+    "serviceName": "Devon Lane",
+    "company": "Agritech Solutions",
+    "contact": "john@agritech.com",
+    "phone": "(225) 555-0118",
+    "date": "17/08/2025 - 22/08/2025",
+    "duration": "1h 15min",
+    "revenue": 720,
+    "customerType": "Ground Media Services",
+    "serviceCategory": "Event Photography"
+  },
+  {
+    "id": 11,
+    "serviceName": "Marvin McKinney",
+    "company": "Agritech Solutions",
+    "contact": "john@agritech.com",
+    "phone": "(225) 555-0118",
+    "date": "18/08/2025 - 23/08/2025",
+    "duration": "1h 40min",
+    "revenue": 680,
+    "customerType": "Aerial Media Services",
+    "serviceCategory": "Event Photography"
+  },
+  {
+    "id": 12,
+    "serviceName": "Bessie Cooper",
+    "company": "Agritech Solutions",
+    "contact": "john@agritech.com",
+    "phone": "(225) 555-0118",
+    "date": "19/08/2025 - 24/08/2025",
+    "duration": "1h 35min",
+    "revenue": 500,
+    "customerType": "Ground Media Services",
+    "serviceCategory": "Aerial Photography & Videography (MP)"
+  },
+  {
+    "id": 13,
+    "serviceName": "Eleanor Pena",
+    "company": "Agritech Solutions",
+    "contact": "john@agritech.com",
+    "phone": "(225) 555-0118",
+    "date": "20/08/2025 - 25/08/2025",
+    "duration": "1h 50min",
+    "revenue": 800,
+    "customerType": "Aerial Media Services",
+    "serviceCategory": "Aerial Photography & Videography (MP)"
+  },
+  {
+    "id": 14,
+    "serviceName": "Guy Hawkins",
+    "company": "Agritech Solutions",
+    "contact": "john@agritech.com",
+    "phone": "(225) 555-0118",
+    "date": "21/08/2025 - 26/08/2025",
+    "duration": "1h 45min",
+    "revenue": 420,
+    "customerType": "Ground Media Services",
+    "serviceCategory": "Event Photography"
+  },
+  {
+    "id": 15,
+    "serviceName": "Arlene McCoy",
+    "company": "Agritech Solutions",
+    "contact": "john@agritech.com",
+    "phone": "(225) 555-0118",
+    "date": "22/08/2025 - 27/08/2025",
+    "duration": "1h 25min",
+    "revenue": 560,
+    "customerType": "Aerial Media Services",
+    "serviceCategory": "Event Photography"
+  },
+  {
+    "id": 16,
+    "serviceName": "Savannah Nguyen",
+    "company": "Agritech Solutions",
+    "contact": "john@agritech.com",
+    "phone": "(225) 555-0118",
+    "date": "23/08/2025 - 28/08/2025",
+    "duration": "1h 45min",
+    "revenue": 640,
+    "customerType": "Ground Media Services",
+    "serviceCategory": "Aerial Photography & Videography (MP)"
+  },
+  {
+    "id": 17,
+    "serviceName": "Jerome Bell",
+    "company": "Agritech Solutions",
+    "contact": "john@agritech.com",
+    "phone": "(225) 555-0118",
+    "date": "24/08/2025 - 29/08/2025",
+    "duration": "1h 15min",
+    "revenue": 570,
+    "customerType": "Aerial Media Services",
+    "serviceCategory": "Aerial Photography & Videography (MP)"
+  },
+  {
+    "id": 18,
+    "serviceName": "Esther Howard",
+    "company": "Agritech Solutions",
+    "contact": "john@agritech.com",
+    "phone": "(225) 555-0118",
+    "date": "25/08/2025 - 30/08/2025",
+    "duration": "1h 40min",
+    "revenue": 620,
+    "customerType": "Ground Media Services",
+    "serviceCategory": "Event Photography"
+  },
+  {
+    "id": 19,
+    "serviceName": "Leslie Alexander",
+    "company": "Agritech Solutions",
+    "contact": "john@agritech.com",
+    "phone": "(225) 555-0118",
+    "date": "26/08/2025 - 31/08/2025",
+    "duration": "1h 35min",
+    "revenue": 580,
+    "customerType": "Aerial Media Services",
+    "serviceCategory": "Event Photography"
+  },
+  {
+    "id": 20,
+    "serviceName": "Annette Black",
+    "company": "Agritech Solutions",
+    "contact": "john@agritech.com",
+    "phone": "(225) 555-0118",
+    "date": "27/08/2025 - 01/09/2025",
+    "duration": "1h 50min",
+    "revenue": 690,
+    "customerType": "Ground Media Services",
+    "serviceCategory": "Aerial Photography & Videography (MP)"
+  }
+]
+
+}

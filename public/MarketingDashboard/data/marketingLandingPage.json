@@ -1,0 +1,380 @@
+{
+  "automationSettings": [
+    {
+      "id": 1,
+      "title": "Automation Settings",
+      "subtext": "3 of 4 rules active",
+      "enabled": false
+    },
+    {
+      "id": 2,
+      "title": "Automation Settings",
+      "subtext": "3 of 4 rules active",
+      "enabled": false
+    },
+    {
+      "id": 3,
+      "title": "Automation Settings",
+      "subtext": "3 of 4 rules active",
+      "enabled": false
+    },
+    {
+      "id": 4,
+      "title": "Automation Settings",
+      "subtext": "3 of 4 rules active",
+      "enabled": false
+    }
+  ],
+  "stats": [
+    {
+      "label": "Click through rate",
+      "value": "3.2%",
+      "change": "+0.4%",
+      "trend": "neutral",
+      "icon": "HiCursorClick",
+      "iconBg": "bg-[#F7FFE5]"
+    },
+    {
+      "label": "Conversion Rate",
+      "value": "438",
+      "change": "+15% vs last month",
+      "trend": "up",
+      "icon": "FaArrowTrendUp",
+      "iconBg": "bg-[#F7FFE5]"
+    },
+    {
+      "label": "Customer Acquisition Cost",
+      "value": "67",
+      "change": "-5% vs last month",
+      "trend": "down",
+      "icon": "FaDollarSign",
+      "iconBg": "bg-[#F7FFE5]"
+    },
+    {
+      "label": "RIO",
+      "value": "23",
+      "change": "+12% vs last month",
+      "trend": "up",
+      "icon": "FaArrowTrendUp",
+      "iconBg": "bg-[#ECFDF6]"
+    }
+  ],
+  "activities": [
+    {
+      "lead": "Agritech Solutions",
+      "contact": "John@agritech.com\n(225) 555-0118",
+      "source": "Email campaign",
+      "location": "Gujrat, India",
+      "score": 95,
+      "status": "Hot",
+      "date": "2025-10-13"
+    },
+    {
+      "lead": "Agritech Solutions",
+      "contact": "John@agritech.com\n(225) 555-0118",
+      "source": "Email campaign",
+      "location": "Gujrat, India",
+      "score": 75,
+      "status": "Warm",
+      "date": "2025-10-08"
+    },
+    {
+      "lead": "Agritech Solutions",
+      "contact": "John@agritech.com\n(225) 555-0118",
+      "source": "Email campaign",
+      "location": "Gujrat, India",
+      "score": 65,
+      "status": "Cool",
+      "date": "2025-10-04"
+    },
+    {
+      "lead": "Agritech Solutions",
+      "contact": "John@agritech.com\n(225) 555-0118",
+      "source": "Email campaign",
+      "location": "Gujrat, India",
+      "score": 85,
+      "status": "Hot",
+      "date": "2025-09-30"
+    },
+    {
+      "lead": "Agritech Solutions",
+      "contact": "John@agritech.com\n(225) 555-0118",
+      "source": "Email campaign",
+      "location": "Gujrat, India",
+      "score": 65,
+      "status": "Cool",
+      "date": "2025-10-20"
+    },
+    {
+      "lead": "Agritech Solutions",
+      "contact": "John@agritech.com\n(225) 555-0118",
+      "source": "Email campaign",
+      "location": "Gujrat, India",
+      "score": 85,
+      "status": "Hot",
+      "date": "2025-09-25"
+    },
+    {
+      "lead": "Agritech Solutions",
+      "contact": "John@agritech.com\n(225) 555-0118",
+      "source": "Email campaign",
+      "location": "Gujrat, India",
+      "score": 95,
+      "status": "Hot",
+      "date": "2025-10-13"
+    },
+    {
+      "lead": "Agritech Solutions",
+      "contact": "John@agritech.com\n(225) 555-0118",
+      "source": "Email campaign",
+      "location": "Gujrat, India",
+      "score": 75,
+      "status": "Warm",
+      "date": "2025-10-08"
+    },
+    {
+      "lead": "Agritech Solutions",
+      "contact": "John@agritech.com\n(225) 555-0118",
+      "source": "Email campaign",
+      "location": "Gujrat, India",
+      "score": 65,
+      "status": "Cool",
+      "date": "2025-10-04"
+    },
+    {
+      "lead": "Agritech Solutions",
+      "contact": "John@agritech.com\n(225) 555-0118",
+      "source": "Email campaign",
+      "location": "Gujrat, India",
+      "score": 85,
+      "status": "Hot",
+      "date": "2025-09-30"
+    },
+    {
+      "lead": "Agritech Solutions",
+      "contact": "John@agritech.com\n(225) 555-0118",
+      "source": "Email campaign",
+      "location": "Gujrat, India",
+      "score": 65,
+      "status": "Cool",
+      "date": "2025-10-20"
+    },
+    {
+      "lead": "Agritech Solutions",
+      "contact": "John@agritech.com\n(225) 555-0118",
+      "source": "Email campaign",
+      "location": "Gujrat, India",
+      "score": 85,
+      "status": "Hot",
+      "date": "2025-09-25"
+    }
+  ],
+  "statusStyles": {
+    "Hot": "bg-red-100 text-red-600",
+    "Warm": "bg-yellow-100 text-yellow-600",
+    "Cool": "bg-green-200 text-green-400"
+  },
+  "leads": ["All Lead", "Hot", "Warm", "Cool"],
+  "allSeasonalCampaigns": [
+    {
+      "id": 1,
+      "image": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=500&h=300&fit=crop",
+      "title": "AgriBoost Season Kickoff",
+      "description": "A seasonal campaign aimed at acquiring new customers using targeted drone planting services.",
+      "type": "Customer Acquisition",
+      "leads": 450,
+      "roi": "120%"
+    },
+    {
+      "id": 2,
+      "image": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=500&h=300&fit=crop",
+      "title": "AgriBoost Season Kickoff",
+      "description": "A seasonal campaign offering discounted drone planting services for farmers at the start of the planting season.",
+      "type": "Brand Awareness",
+      "leads": 500,
+      "roi": "145%"
+    },
+    {
+      "id": 3,
+      "image": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=500&h=300&fit=crop",
+      "title": "AgriBoost Season Kickoff",
+      "description": "A campaign to re-engage previous customers with exclusive drone service offers.",
+      "type": "Retargeting",
+      "leads": 300,
+      "roi": "110%"
+    },
+    {
+      "id": 4,
+      "image": "https://images.unsplash.com/photo-1606788075761-9b1bdb7b1b8d?w=500&h=300&fit=crop",
+      "title": "HarvestPro Launch",
+      "description": "Drive new client sign-ups for advanced agricultural drone services during harvest season.",
+      "type": "Customer Acquisition",
+      "leads": 520,
+      "roi": "130%"
+    },
+    {
+      "id": 5,
+      "image": "https://images.unsplash.com/photo-1606788075761-9b1bdb7b1b8d?w=500&h=300&fit=crop",
+      "title": "HarvestPro Launch",
+      "description": "Promote awareness about new drone technology for crop monitoring among farmers.",
+      "type": "Brand Awareness",
+      "leads": 600,
+      "roi": "150%"
+    },
+    {
+      "id": 6,
+      "image": "https://images.unsplash.com/photo-1606788075761-9b1bdb7b1b8d?w=500&h=300&fit=crop",
+      "title": "HarvestPro Launch",
+      "description": "Encourage previous users to try updated drone features with special offers.",
+      "type": "Retargeting",
+      "leads": 380,
+      "roi": "115%"
+    },
+    {
+      "id": 7,
+      "image": "https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?w=500&h=300&fit=crop",
+      "title": "DroneFarm Expansion",
+      "description": "Attract new farmers to adopt drone services for precision agriculture.",
+      "type": "Customer Acquisition",
+      "leads": 480,
+      "roi": "125%"
+    },
+    {
+      "id": 8,
+      "image": "https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?w=500&h=300&fit=crop",
+      "title": "DroneFarm Expansion",
+      "description": "Increase brand visibility among farming communities for drone technology.",
+      "type": "Brand Awareness",
+      "leads": 550,
+      "roi": "140%"
+    },
+    {
+      "id": 9,
+      "image": "https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?w=500&h=300&fit=crop",
+      "title": "DroneFarm Expansion",
+      "description": "Target previous leads with personalized drone service promotions.",
+      "type": "Retargeting",
+      "leads": 350,
+      "roi": "112%"
+    },
+    {
+      "id": 10,
+      "image": "https://images.unsplash.com/photo-1581090461519-1f7d8f5e4e2f?w=500&h=300&fit=crop",
+      "title": "AgriTech Boost",
+      "description": "Acquire new farmers for cutting-edge drone mapping services.",
+      "type": "Customer Acquisition",
+      "leads": 510,
+      "roi": "128%"
+    },
+    {
+      "id": 11,
+      "image": "https://images.unsplash.com/photo-1581090461519-1f7d8f5e4e2f?w=500&h=300&fit=crop",
+      "title": "AgriTech Boost",
+      "description": "Spread awareness about AgriTech Boost drone services in rural regions.",
+      "type": "Brand Awareness",
+      "leads": 580,
+      "roi": "142%"
+    },
+    {
+      "id": 12,
+      "image": "https://images.unsplash.com/photo-1581090461519-1f7d8f5e4e2f?w=500&h=300&fit=crop",
+      "title": "AgriTech Boost",
+      "description": "Re-engage old customers with loyalty offers on AgriTech drone services.",
+      "type": "Retargeting",
+      "leads": 360,
+      "roi": "118%"
+    },
+    {
+      "id": 13,
+      "image": "https://images.unsplash.com/photo-1572375055901-5c13b5d2de39?w=500&h=300&fit=crop",
+      "title": "SmartFarm Initiative",
+      "description": "Target new clients for AI-driven farm monitoring drones.",
+      "type": "Customer Acquisition",
+      "leads": 495,
+      "roi": "132%"
+    },
+    {
+      "id": 14,
+      "image": "https://images.unsplash.com/photo-1572375055901-5c13b5d2de39?w=500&h=300&fit=crop",
+      "title": "SmartFarm Initiative",
+      "description": "Raise awareness of SmartFarm's AI drone solutions among farmers.",
+      "type": "Brand Awareness",
+      "leads": 570,
+      "roi": "148%"
+    },
+    {
+      "id": 15,
+      "image": "https://images.unsplash.com/photo-1572375055901-5c13b5d2de39?w=500&h=300&fit=crop",
+      "title": "SmartFarm Initiative",
+      "description": "Reconnect with previous users offering advanced SmartFarm drone features.",
+      "type": "Retargeting",
+      "leads": 370,
+      "roi": "116%"
+    }
+  ],
+  "allLoyaltyPrograms": [
+    {
+      "id": 1,
+      "image": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=500&h=300&fit=crop",
+      "title": "AgriBoost Season Kickoff",
+      "description": "A seasonal campaign aimed at acquiring new customers using targeted drone planting services.",
+      "type": "Customer Acquisition",
+      "leads": 450,
+      "roi": "120%"
+    },
+    {
+      "id": 2,
+      "image": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=500&h=300&fit=crop",
+      "title": "AgriBoost Season Kickoff",
+      "description": "A seasonal campaign offering discounted drone planting services for farmers at the start of the planting season.",
+      "type": "Brand Awareness",
+      "leads": 500,
+      "roi": "145%"
+    },
+    {
+      "id": 3,
+      "image": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=500&h=300&fit=crop",
+      "title": "AgriBoost Season Kickoff",
+      "description": "A campaign to re-engage previous customers with exclusive drone service offers.",
+      "type": "Retargeting",
+      "leads": 300,
+      "roi": "110%"
+    },
+    {
+      "id": 4,
+      "image": "https://images.unsplash.com/photo-1606788075761-9b1bdb7b1b8d?w=500&h=300&fit=crop",
+      "title": "HarvestPro Launch",
+      "description": "Drive new client sign-ups for advanced agricultural drone services during harvest season.",
+      "type": "Customer Acquisition",
+      "leads": 520,
+      "roi": "130%"
+    },
+    {
+      "id": 5,
+      "image": "https://images.unsplash.com/photo-1606788075761-9b1bdb7b1b8d?w=500&h=300&fit=crop",
+      "title": "HarvestPro Launch",
+      "description": "Promote awareness about new drone technology for crop monitoring among farmers.",
+      "type": "Brand Awareness",
+      "leads": 600,
+      "roi": "150%"
+    },
+    {
+      "id": 6,
+      "image": "https://images.unsplash.com/photo-1606788075761-9b1bdb7b1b8d?w=500&h=300&fit=crop",
+      "title": "HarvestPro Launch",
+      "description": "Encourage previous users to try updated drone features with special offers.",
+      "type": "Retargeting",
+      "leads": 380,
+      "roi": "115%"
+    },
+    {
+      "id": 7,
+      "image": "https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?w=500&h=300&fit=crop",
+      "title": "DroneFarm Expansion",
+      "description": "Attract new farmers to adopt drone services for precision agriculture.",
+      "type": "Customer Acquisition",
+      "leads": 480,
+      "roi": "125%"
+    }
+  ]
+}

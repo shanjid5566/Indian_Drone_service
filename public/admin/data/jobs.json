@@ -1,0 +1,131 @@
+{
+  "scheduled": {
+    "count": 12,
+    "date": "Dec 15",
+    "jobs": []
+  },
+  "inProgress": {
+    "count": 8,
+    "date": "Dec 15",
+    "jobs": []
+  },
+  "complete": {
+    "count": 156,
+    "date": "Dec 15",
+    "jobs": []
+  },
+  "operators": [
+    {
+      "id": 1,
+      "name": "Jacob Jones",
+      "status": "In progress",
+      "jobNumber": "01",
+      "progress": 99
+    },
+    {
+      "id": 2,
+      "name": "Floyd Miles",
+      "status": "In progress",
+      "jobNumber": "24",
+      "progress": 75
+    },
+    {
+      "id": 3,
+      "name": "Dianne Russell",
+      "status": "Not started",
+      "jobNumber": "2",
+      "progress": 0
+    },
+    {
+      "id": 4,
+      "name": "Theresa",
+      "status": "Suspended",
+      "jobNumber": "12",
+      "progress": 25
+    },
+    {
+      "id": 5,
+      "name": "Wade Warren",
+      "status": "In progress",
+      "jobNumber": "08",
+      "progress": 60
+    },
+    {
+      "id": 6,
+      "name": "Esther Howard",
+      "status": "In progress",
+      "jobNumber": "15",
+      "progress": 90
+    },
+    {
+      "id": 7,
+      "name": "Cameron Williamson",
+      "status": "Not started",
+      "jobNumber": "03",
+      "progress": 0
+    },
+    {
+      "id": 8,
+      "name": "Brooklyn Simmons",
+      "status": "In progress",
+      "jobNumber": "19",
+      "progress": 45
+    },
+    {
+      "id": 9,
+      "name": "Leslie Alexander",
+      "status": "Suspended",
+      "jobNumber": "07",
+      "progress": 15
+    },
+    {
+      "id": 10,
+      "name": "Jenny Wilson",
+      "status": "In progress",
+      "jobNumber": "11",
+      "progress": 85
+    },
+    {
+      "id": 11,
+      "name": "Robert Fox",
+      "status": "In progress",
+      "jobNumber": "22",
+      "progress": 70
+    },
+    {
+      "id": 12,
+      "name": "Jacob Cooper",
+      "status": "Not started",
+      "jobNumber": "05",
+      "progress": 0
+    },
+    {
+      "id": 13,
+      "name": "Kristin Watson",
+      "status": "In progress",
+      "jobNumber": "16",
+      "progress": 55
+    },
+    {
+      "id": 14,
+      "name": "Cody Fisher",
+      "status": "In progress",
+      "jobNumber": "20",
+      "progress": 80
+    },
+    {
+      "id": 15,
+      "name": "Savannah Nguyen",
+      "status": "Suspended",
+      "jobNumber": "09",
+      "progress": 20
+    },
+    {
+      "id": 16,
+      "name": "Guy Hawkins",
+      "status": "In progress",
+      "jobNumber": "13",
+      "progress": 95
+    }
+  ]
+}

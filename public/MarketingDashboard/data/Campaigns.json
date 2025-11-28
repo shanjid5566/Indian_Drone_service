@@ -1,0 +1,91 @@
+{
+  "seasonalCampaigns": [
+    {
+      "id": 1,
+      "name": "Spring Sky Deals",
+      "type": "Brand Awareness",
+      "leads": 500,
+      "roi": "145%"
+    },
+    {
+      "id": 2,
+      "name": "Summer Heights Promo",
+      "type": "Customer Acquisition",
+      "leads": 600,
+      "roi": "200%"
+    },
+    {
+      "id": 3,
+      "name": "Monsoon View Specials",
+      "type": "Retargeting",
+      "leads": 700,
+      "roi": "300%"
+    },
+    {
+      "id": 4,
+      "name": "Autumn Horizon Offer",
+      "type": "Customer Acquisition",
+      "leads": 30,
+      "roi": "400%"
+    },
+    {
+      "id": 5,
+      "name": "Winter Skyline Campaign",
+      "type": "Brand Awareness",
+      "leads": 54,
+      "roi": "500%"
+    },
+    {
+      "id": 6,
+      "name": "New Year New Heights",
+      "type": "Retargeting",
+      "leads": 54,
+      "roi": "600%"
+    }
+  ],
+  
+  "loyaltyCampaigns": [
+    {
+      "id": 1,
+      "name": "SkyPoints Rewards",
+      "type": "Brand Awareness",
+      "leads": 500,
+      "roi": "145%"
+    },
+    {
+      "id": 2,
+      "name": "DroneMiles Loyalty Program",
+      "type": "Customer Acquisition",
+      "leads": 800,
+      "roi": "200%"
+    },
+    {
+      "id": 3,
+      "name": "Aerial Advantage Club",
+      "type": "Retargeting",
+      "leads": 700,
+      "roi": "300%"
+    },
+    {
+      "id": 4,
+      "name": "Elite Flyer Membership",
+      "type": "Customer Acquisition",
+      "leads": 30,
+      "roi": "400%"
+    },
+    {
+      "id": 5,
+      "name": "Property Vision Rewards",
+      "type": "Brand Awareness",
+      "leads": 54,
+      "roi": "500%"
+    },
+    {
+      "id": 6,
+      "name": "Altitude Advantage",
+      "type": "Retargeting",
+      "leads": 54,
+      "roi": "600%"
+    }
+  ]
+}

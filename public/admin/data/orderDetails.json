@@ -1,0 +1,67 @@
+{
+  "operatorName": "Jacob Jones",
+  "stats": [
+    {
+      "label": "Total active Jobs",
+      "value": "16",
+      "change": "+12% from last month",
+      "changeType": "positive"
+    },
+    {
+      "label": "Total complete job",
+      "value": "60",
+      "change": "+12% from last month",
+      "changeType": "positive"
+    },
+    {
+      "label": "Average rating",
+      "value": "4.5",
+      "change": "Out of 5",
+      "changeType": "neutral"
+    },
+    {
+      "label": "Total drone",
+      "value": "5",
+      "change": "Active 2",
+      "changeType": "neutral"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "service": "Drone spraying",
+      "status": "In progress",
+      "rating": 4.5,
+      "progress": 99,
+      "orderId": "#06541121-A",
+      "location": "30.9010° N, 75.8573° E"
+    },
+    {
+      "id": 2,
+      "service": "Soil analysis",
+      "status": "In progress",
+      "rating": 4.1,
+      "progress": 55,
+      "orderId": "#06541121-B",
+      "location": "26.8467° N, 80.9462° E"
+    },
+    {
+      "id": 3,
+      "service": "Expert appointments",
+      "status": "Not started",
+      "rating": null,
+      "progress": 0,
+      "orderId": "#06541121-C",
+      "location": "22.5726° N, 88.3639° E"
+    },
+    {
+      "id": 4,
+      "service": "Crop monitoring",
+      "status": "Completed",
+      "rating": 3.5,
+      "progress": 100,
+      "orderId": "#06541121-D",
+      "location": "18.5204° N, 73.8567° E"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "serviceProvider": "Cody Fisher",
+      "paymentMethod": "Bank Transfer",
+      "paymentType": "Bank",
+      "status": "Done",
+      "payouts": "$1050",
+      "dateTime": "8 Sep, 2025 ( 09:45 AM)"
+    },
+    {
+      "id": 2,
+      "serviceProvider": "Marvin McKinney",
+      "paymentMethod": "UPI",
+      "paymentType": "Upi",
+      "status": "Done",
+      "payouts": "$1250",
+      "dateTime": "5 Sep, 2025 ( 09:45 AM)"
+    },
+    {
+      "id": 3,
+      "serviceProvider": "Jenny Wilson",
+      "paymentMethod": "Paytm Wallet",
+      "paymentType": "Wallet",
+      "status": "Done",
+      "payouts": "$100",
+      "dateTime": "1 Sep, 2025 ( 09:45 AM)"
+    },
+    {
+      "id": 4,
+      "serviceProvider": "Wade Warren",
+      "paymentMethod": "Bank Transfer",
+      "paymentType": "Bank",
+      "status": "Done",
+      "payouts": "$890",
+      "dateTime": "28 Aug, 2025 ( 10:30 AM)"
+    },
+    {
+      "id": 5,
+      "serviceProvider": "Esther Howard",
+      "paymentMethod": "UPI",
+      "paymentType": "Upi",
+      "status": "Done",
+      "payouts": "$1500",
+      "dateTime": "25 Aug, 2025 ( 02:15 PM)"
+    },
+    {
+      "id": 6,
+      "serviceProvider": "Cameron Williamson",
+      "paymentMethod": "PhonePe Wallet",
+      "paymentType": "Wallet",
+      "status": "Done",
+      "payouts": "$750",
+      "dateTime": "22 Aug, 2025 ( 11:20 AM)"
+    },
+    {
+      "id": 7,
+      "serviceProvider": "Robert Fox",
+      "paymentMethod": "Bank Transfer",
+      "paymentType": "Bank",
+      "status": "Done",
+      "payouts": "$2100",
+      "dateTime": "20 Aug, 2025 ( 09:00 AM)"
+    },
+    {
+      "id": 8,
+      "serviceProvider": "Brooklyn Simmons",
+      "paymentMethod": "UPI",
+      "paymentType": "Upi",
+      "status": "Done",
+      "payouts": "$980",
+      "dateTime": "18 Aug, 2025 ( 03:45 PM)"
+    },
+    {
+      "id": 9,
+      "serviceProvider": "Annette Black",
+      "paymentMethod": "Google Pay",
+      "paymentType": "Wallet",
+      "status": "Done",
+      "payouts": "$1350",
+      "dateTime": "15 Aug, 2025 ( 01:30 PM)"
+    },
+    {
+      "id": 10,
+      "serviceProvider": "Darrell Steward",
+      "paymentMethod": "Bank Transfer",
+      "paymentType": "Bank",
+      "status": "Done",
+      "payouts": "$1680",
+      "dateTime": "12 Aug, 2025 ( 10:15 AM)"
+    },
+    {
+      "id": 11,
+      "serviceProvider": "Kathryn Murphy",
+      "paymentMethod": "UPI",
+      "paymentType": "Upi",
+      "status": "Done",
+      "payouts": "$920",
+      "dateTime": "10 Aug, 2025 ( 04:00 PM)"
+    },
+    {
+      "id": 12,
+      "serviceProvider": "Courtney Henry",
+      "paymentMethod": "Paytm Wallet",
+      "paymentType": "Wallet",
+      "status": "Done",
+      "payouts": "$1120",
+      "dateTime": "8 Aug, 2025 ( 11:45 AM)"
+    }
+  ]
+}
